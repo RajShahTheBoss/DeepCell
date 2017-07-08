@@ -1,0 +1,2114 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+#   - http	templates/language/grammars/__package-name__.cson	/^#   - http:\/\/manual.macromates.com\/en\/language_grammars$/;"	f
+# If this is your first time writing a language grammar, check out	templates/language/grammars/__package-name__.cson	/^# If this is your first time writing a language grammar, check out:$/;"	f
+# If you want some example snippets, check out	templates/language/snippets/language-__package-name__.cson	/^# If you want some example snippets, check out:$/;"	f
+# If you want some examples of settings, check out	templates/language/settings/language-__package-name__.cson	/^# If you want some examples of settings, check out:$/;"	f
+# https	templates/language/settings/language-__package-name__.cson	/^# https:\/\/github.com\/atom\/language-gfm\/blob\/master\/settings\/gfm.cson$/;"	f
+# https	templates/language/snippets/language-__package-name__.cson	/^# https:\/\/github.com\/atom\/language-gfm\/blob\/master\/snippets\/gfm.cson$/;"	f
+.source.__package-name__	templates/language/settings/language-__package-name__.cson	/^'.source.__package-name__':$/;"	f
+.source.__package-name__	templates/language/snippets/language-__package-name__.cson	/^'.source.__package-name__':$/;"	f
+0.1.0	spec/fixtures/upgrade-multi-version.json	/^    "0.1.0": {$/;"	f
+0.14.0	spec/fixtures/wrap-guide.json	/^    "0.14.0": {$/;"	f
+0.2.0	spec/fixtures/install-multi-version.json	/^    "0.2.0": {$/;"	f
+0.2.0	spec/fixtures/upgrade-multi-version.json	/^    "0.2.0": {$/;"	f
+0.2.1	spec/fixtures/upgrade-multi-version.json	/^    "0.2.1": {$/;"	f
+0.3.0	spec/fixtures/install-multi-version.json	/^    "0.3.0": {$/;"	f
+0.3.0	spec/fixtures/upgrade-multi-version.json	/^    "0.3.0": {$/;"	f
+0.3.0	spec/fixtures/wrap-guide.json	/^    "0.3.0": {$/;"	f
+0.4.0	spec/fixtures/install-multi-version.json	/^    "0.4.0": {$/;"	f
+0.4.0	spec/fixtures/install-test-module.json	/^        "0.4.0": {$/;"	f
+0.4.0	spec/fixtures/upgrade-different-repo.json	/^    "0.4.0": {$/;"	f
+0.4.0	spec/fixtures/upgrade-multi-version.json	/^    "0.4.0": {$/;"	f
+0.4.0	spec/fixtures/upgrade-test-module.json	/^    "0.4.0": {$/;"	f
+1.2.3	spec/fixtures/atom-2048.json	/^    "1.2.3": {$/;"	f
+2.0.0	spec/fixtures/install-test-module-with-bin.json	/^        "2.0.0": {$/;"	f
+2.0.0	spec/fixtures/install-test-module2.json	/^        "2.0.0": {$/;"	f
+5.0.0	spec/fixtures/install-test-module-with-symlink.json	/^        "5.0.0": {$/;"	f
+AR.host	native-module/build/Makefile	/^AR.host ?= ar$/;"	m
+AR.target	native-module/build/Makefile	/^AR.target ?= $(AR)$/;"	m
+BUILDTYPE	native-module/build/Makefile	/^BUILDTYPE ?= Release$/;"	m
+CC.host	native-module/build/Makefile	/^CC.host ?= gcc$/;"	m
+CC.target	native-module/build/Makefile	/^CC.target ?= $(CC)$/;"	m
+CFLAGS.host	native-module/build/Makefile	/^CFLAGS.host ?=$/;"	m
+CFLAGS.target	native-module/build/Makefile	/^CFLAGS.target ?= $(CFLAGS)$/;"	m
+CFLAGS_CC_Debug	native-module/build/native.target.mk	/^CFLAGS_CC_Debug := \\$/;"	m
+CFLAGS_CC_Release	native-module/build/native.target.mk	/^CFLAGS_CC_Release := \\$/;"	m
+CFLAGS_C_Debug	native-module/build/native.target.mk	/^CFLAGS_C_Debug := \\$/;"	m
+CFLAGS_C_Release	native-module/build/native.target.mk	/^CFLAGS_C_Release := \\$/;"	m
+CFLAGS_Debug	native-module/build/native.target.mk	/^CFLAGS_Debug := \\$/;"	m
+CFLAGS_OBJCC_Debug	native-module/build/native.target.mk	/^CFLAGS_OBJCC_Debug :=$/;"	m
+CFLAGS_OBJCC_Release	native-module/build/native.target.mk	/^CFLAGS_OBJCC_Release :=$/;"	m
+CFLAGS_OBJC_Debug	native-module/build/native.target.mk	/^CFLAGS_OBJC_Debug :=$/;"	m
+CFLAGS_OBJC_Release	native-module/build/native.target.mk	/^CFLAGS_OBJC_Release :=$/;"	m
+CFLAGS_Release	native-module/build/native.target.mk	/^CFLAGS_Release := \\$/;"	m
+CXX.host	native-module/build/Makefile	/^CXX.host ?= g++$/;"	m
+CXX.target	native-module/build/Makefile	/^CXX.target ?= $(CXX)$/;"	m
+CXXFLAGS.host	native-module/build/Makefile	/^CXXFLAGS.host ?=$/;"	m
+CXXFLAGS.target	native-module/build/Makefile	/^CXXFLAGS.target ?= $(CXXFLAGS)$/;"	m
+Clean	src/clean.coffee	/^class Clean extends Command$/;"	c
+Command	src/command.coffee	/^class Command$/;"	c
+CommandParser	spec/fixtures/r.tmbundle/Support/lib/parsing.rb	/^class CommandParser$/;"	c
+Config	src/config.coffee	/^class Config extends Command$/;"	c
+CoreFoundation	native-module/build/gyp-mac-tool	/^    import CoreFoundation$/;"	i
+DEFS_Debug	native-module/build/native.target.mk	/^DEFS_Debug := \\$/;"	m
+DEFS_Release	native-module/build/native.target.mk	/^DEFS_Release := \\$/;"	m
+DEPFLAGS	native-module/build/Makefile	/^DEPFLAGS = -MMD -MF $(depfile).raw$/;"	m
+Dedupe	src/dedupe.coffee	/^class Dedupe extends Command$/;"	c
+Develop	spec/develop-spec.coffee	/^      Develop = require '..\/lib\/develop'$/;"	v
+Develop	src/develop.coffee	/^class Develop extends Command$/;"	c
+Develop	src/install.coffee	/^    Develop = require '.\/develop'$/;"	v
+Disable	src/disable.coffee	/^class Disable extends Command$/;"	c
+Dispatch	native-module/build/gyp-mac-tool	/^  def Dispatch(self, args):$/;"	m	class:MacTool
+Docs	spec/docs-spec.coffee	/^    Docs = require('..\/lib\/docs')$/;"	v
+Docs	spec/docs-spec.coffee	/^Docs = require('..\/lib\/docs')$/;"	v
+Docs	src/docs.coffee	/^class Docs extends View$/;"	c
+Enable	src/enable.coffee	/^class Enable extends Command$/;"	c
+ExecCodeSignBundle	native-module/build/gyp-mac-tool	/^  def ExecCodeSignBundle(self, key, resource_rules, entitlements, provisioning):$/;"	m	class:MacTool
+ExecCompileXcassets	native-module/build/gyp-mac-tool	/^  def ExecCompileXcassets(self, keys, *inputs):$/;"	m	class:MacTool
+ExecCopyBundleResource	native-module/build/gyp-mac-tool	/^  def ExecCopyBundleResource(self, source, dest, convert_to_binary):$/;"	m	class:MacTool
+ExecCopyInfoPlist	native-module/build/gyp-mac-tool	/^  def ExecCopyInfoPlist(self, source, dest, convert_to_binary, *keys):$/;"	m	class:MacTool
+ExecFilterLibtool	native-module/build/gyp-mac-tool	/^  def ExecFilterLibtool(self, *cmd_list):$/;"	m	class:MacTool
+ExecFlock	native-module/build/gyp-mac-tool	/^  def ExecFlock(self, lockfile, *cmd_list):$/;"	m	class:MacTool
+ExecMergeInfoPlist	native-module/build/gyp-mac-tool	/^  def ExecMergeInfoPlist(self, output, *inputs):$/;"	m	class:MacTool
+ExecPackageFramework	native-module/build/gyp-mac-tool	/^  def ExecPackageFramework(self, framework, version):$/;"	m	class:MacTool
+Featured	src/featured.coffee	/^class Featured extends Command$/;"	c
+GYP_CFLAGS	native-module/build/native.target.mk	/^$(OBJS): GYP_CFLAGS := $(DEFS_$(BUILDTYPE)) $(INCS_$(BUILDTYPE))  $(CFLAGS_$(BUILDTYPE)) $(CFLAGS_C_$(BUILDTYPE))$/;"	m
+GYP_CXXFLAGS	native-module/build/native.target.mk	/^$(OBJS): GYP_CXXFLAGS := $(DEFS_$(BUILDTYPE)) $(INCS_$(BUILDTYPE))  $(CFLAGS_$(BUILDTYPE)) $(CFLAGS_CC_$(BUILDTYPE))$/;"	m
+GYP_LDFLAGS	native-module/build/native.target.mk	/^$(builddir)\/native.node: GYP_LDFLAGS := $(LDFLAGS_$(BUILDTYPE))$/;"	m
+GYP_LIBTOOLFLAGS	native-module/build/native.target.mk	/^$(builddir)\/native.node: GYP_LIBTOOLFLAGS := $(LIBTOOLFLAGS_$(BUILDTYPE))$/;"	m
+GYP_OBJCFLAGS	native-module/build/native.target.mk	/^$(OBJS): GYP_OBJCFLAGS := $(DEFS_$(BUILDTYPE)) $(INCS_$(BUILDTYPE))  $(CFLAGS_$(BUILDTYPE)) $(CFLAGS_C_$(BUILDTYPE)) $(CFLAGS_OBJC_$(BUILDTYPE))$/;"	m
+GYP_OBJCXXFLAGS	native-module/build/native.target.mk	/^$(OBJS): GYP_OBJCXXFLAGS := $(DEFS_$(BUILDTYPE)) $(INCS_$(BUILDTYPE))  $(CFLAGS_$(BUILDTYPE)) $(CFLAGS_CC_$(BUILDTYPE)) $(CFLAGS_OBJCC_$(BUILDTYPE))$/;"	m
+HistoryList	spec/fixtures/r.tmbundle/Support/lib/historyList.rb	/^class HistoryList$/;"	c
+INCS_Debug	native-module/build/native.target.mk	/^INCS_Debug := \\$/;"	m
+INCS_Release	native-module/build/native.target.mk	/^INCS_Release := \\$/;"	m
+Init	src/init.coffee	/^class Init extends Command$/;"	c
+Install	src/install.coffee	/^class Install extends Command$/;"	c
+LDFLAGS.host	native-module/build/Makefile	/^LDFLAGS.host ?=$/;"	m
+LDFLAGS.target	native-module/build/Makefile	/^LDFLAGS.target ?= $(LDFLAGS)$/;"	m
+LDFLAGS_Debug	native-module/build/native.target.mk	/^LDFLAGS_Debug := \\$/;"	m
+LDFLAGS_Release	native-module/build/native.target.mk	/^LDFLAGS_Release := \\$/;"	m
+LIBS	native-module/build/native.target.mk	/^$(builddir)\/native.node: LIBS := $(LIBS)$/;"	m
+LIBS	native-module/build/native.target.mk	/^LIBS :=$/;"	m
+LIBTOOLFLAGS_Debug	native-module/build/native.target.mk	/^LIBTOOLFLAGS_Debug := \\$/;"	m
+LIBTOOLFLAGS_Release	native-module/build/native.target.mk	/^LIBTOOLFLAGS_Release := \\$/;"	m
+LINK	native-module/build/Makefile	/^LINK ?= $(CXX.target)$/;"	m
+LINK.host	native-module/build/Makefile	/^LINK.host ?= $(CXX.host)$/;"	m
+LINK.target	native-module/build/Makefile	/^LINK.target ?= $(LINK)$/;"	m
+Lexer	spec/fixtures/r.tmbundle/Support/lib/parsing.rb	/^class Lexer$/;"	c
+Link	src/link.coffee	/^class Link extends Command$/;"	c
+Links	src/links.coffee	/^class Links extends Command$/;"	c
+List	src/disable.coffee	/^List = require '.\/list'$/;"	v
+List	src/list.coffee	/^class List extends Command$/;"	c
+Login	src/login.coffee	/^class Login extends Command$/;"	c
+MAKEFLAGS	native-module/build/Makefile	/^MAKEFLAGS=-r$/;"	m
+MacTool	native-module/build/gyp-mac-tool	/^class MacTool(object):$/;"	c
+MavensMate-Atom	deprecated-packages.json	/^  "MavensMate-Atom": {$/;"	f
+Method documentation	templates/language/snippets/language-__package-name__.cson	/^  'Method documentation':$/;"	f
+OBJS	native-module/build/native.target.mk	/^OBJS := \\$/;"	m
+PackageConverter	src/package-converter.coffee	/^class PackageConverter$/;"	c
+Packages	src/publish.coffee	/^Packages = require '.\/packages'$/;"	v
+Packages	src/star.coffee	/^Packages = require '.\/packages'$/;"	v
+Packages	src/upgrade.coffee	/^Packages = require '.\/packages'$/;"	v
+Publish	src/publish.coffee	/^class Publish extends Command$/;"	c
+Q	src/login.coffee	/^Q = require 'q'$/;"	v
+Rebuild	src/rebuild.coffee	/^class Rebuild extends Command$/;"	c
+RebuildModuleCache	src/rebuild-module-cache.coffee	/^class RebuildModuleCache extends Command$/;"	c
+Search	src/search.coffee	/^class Search extends Command$/;"	c
+SearchServer	spec/fixtures/r.tmbundle/Support/bin/Rsearch.sh	/^		function SearchServer(term) {$/;"	f
+Star	src/star.coffee	/^class Star extends Command$/;"	c
+Stars	src/stars.coffee	/^class Stars extends Command$/;"	c
+SyntaxVariablesTemplate	src/text-mate-theme.coffee	/^SyntaxVariablesTemplate = """$/;"	v
+TARGET	native-module/build/native.target.mk	/^TARGET := native$/;"	m
+TOOLSET	native-module/build/Makefile	/^TOOLSET := target$/;"	m
+TOOLSET	native-module/build/native.target.mk	/^$(OBJS): TOOLSET := $(TOOLSET)$/;"	m
+TOOLSET	native-module/build/native.target.mk	/^$(builddir)\/native.node: TOOLSET := $(TOOLSET)$/;"	m
+TOOLSET	native-module/build/native.target.mk	/^TOOLSET := target$/;"	m
+Test	src/test.coffee	/^class Test extends Command$/;"	c
+TestHistoryList	spec/fixtures/r.tmbundle/Support/tests/testHistoryList.rb	/^class TestHistoryList < Test::Unit::TestCase$/;"	c
+TextMateTheme	src/text-mate-theme.coffee	/^class TextMateTheme$/;"	c
+ThemeConverter	src/theme-converter.coffee	/^class ThemeConverter$/;"	c
+Uninstall	src/uninstall.coffee	/^class Uninstall extends Command$/;"	c
+Unlink	src/unlink.coffee	/^class Unlink extends Command$/;"	c
+Unpublish	src/unpublish.coffee	/^class Unpublish extends Command$/;"	c
+Unstar	src/unstar.coffee	/^class Unstar extends Command$/;"	c
+Upgrade	src/upgrade.coffee	/^class Upgrade extends Command$/;"	c
+Usage	src/featured.coffee	/^      Usage: apm featured$/;"	f
+Usage	src/init.coffee	/^      Usage:$/;"	f
+Usage	src/list.coffee	/^      Usage: apm list$/;"	f
+Usage	src/stars.coffee	/^      Usage: apm stars$/;"	f
+Usage	src/test.coffee	/^      Usage:$/;"	f
+Usage	src/upgrade.coffee	/^      Usage: apm upgrade$/;"	f
+View	src/docs.coffee	/^View = require '.\/view'$/;"	v
+View	src/view.coffee	/^class View extends Command$/;"	c
+_CommandifyName	native-module/build/gyp-mac-tool	/^  def _CommandifyName(self, name_string):$/;"	m	class:MacTool
+_ConvertToBinary	native-module/build/gyp-mac-tool	/^  def _ConvertToBinary(self, dest):$/;"	m	class:MacTool
+_CopyStringsFile	native-module/build/gyp-mac-tool	/^  def _CopyStringsFile(self, source, dest, convert_to_binary):$/;"	m	class:MacTool
+_CopyXIBFile	native-module/build/gyp-mac-tool	/^  def _CopyXIBFile(self, source, dest):$/;"	m	class:MacTool
+_DetectInputEncoding	native-module/build/gyp-mac-tool	/^  def _DetectInputEncoding(self, file_name):$/;"	m	class:MacTool
+_ExpandVariables	native-module/build/gyp-mac-tool	/^  def _ExpandVariables(self, data, substitutions):$/;"	m	class:MacTool
+_FindProvisioningProfile	native-module/build/gyp-mac-tool	/^  def _FindProvisioningProfile(self, profile, bundle_identifier):$/;"	m	class:MacTool
+_GetCFBundleIdentifier	native-module/build/gyp-mac-tool	/^  def _GetCFBundleIdentifier(self):$/;"	m	class:MacTool
+_GetSubstitutions	native-module/build/gyp-mac-tool	/^  def _GetSubstitutions(self, bundle_identifier, app_identifier_prefix):$/;"	m	class:MacTool
+_InstallEntitlements	native-module/build/gyp-mac-tool	/^  def _InstallEntitlements(self, entitlements, substitutions, overrides):$/;"	m	class:MacTool
+_InstallProvisioningProfile	native-module/build/gyp-mac-tool	/^  def _InstallProvisioningProfile(self, profile, bundle_identifier):$/;"	m	class:MacTool
+_InstallResourceRules	native-module/build/gyp-mac-tool	/^  def _InstallResourceRules(self, resource_rules):$/;"	m	class:MacTool
+_LoadPlistMaybeBinary	native-module/build/gyp-mac-tool	/^  def _LoadPlistMaybeBinary(self, plist_path):$/;"	m	class:MacTool
+_LoadProvisioningProfile	native-module/build/gyp-mac-tool	/^  def _LoadProvisioningProfile(self, profile_path):$/;"	m	class:MacTool
+_MergePlist	native-module/build/gyp-mac-tool	/^  def _MergePlist(self, merged_plist, plist):$/;"	m	class:MacTool
+_Relink	native-module/build/gyp-mac-tool	/^  def _Relink(self, dest, link):$/;"	m	class:MacTool
+_WritePkgInfo	native-module/build/gyp-mac-tool	/^  def _WritePkgInfo(self, info_plist):$/;"	m	class:MacTool
+a	src/text-mate-theme.coffee	/^      a = @parseHexColor(textmateColor[7..8])$/;"	v
+abc	spec/publish-spec.coffee	/^        abc: 'git:\/\/github.com\/user\/project.git'$/;"	f
+abcd	spec/publish-spec.coffee	/^        abcd: 'latest'$/;"	f
+abs_builddir	native-module/build/Makefile	/^abs_builddir := $(abspath $(builddir))$/;"	m
+abs_obj	native-module/build/Makefile	/^abs_obj := $(abspath $(obj))$/;"	m
+abs_srcdir	native-module/build/Makefile	/^abs_srcdir := $(abspath $(srcdir))$/;"	m
+activationCommands	templates/package-coffeescript/package.json	/^  "activationCommands": {$/;"	f
+activationCommands	templates/package-javascript/package.json	/^  "activationCommands": {$/;"	f
+addBuildEnvVars	src/command.coffee	/^  addBuildEnvVars: (env) ->$/;"	m
+addGitBashToEnv	lib/git.js	/^  };$/;"	f
+addGitBashToEnv	src/git.coffee	/^addGitBashToEnv = (env) ->$/;"	f
+addGitToEnv	src/git.coffee	/^exports.addGitToEnv = (env) ->$/;"	f
+addNodeBinToEnv	src/command.coffee	/^  addNodeBinToEnv: (env) ->$/;"	m
+addPortableGitToEnv	lib/git.js	/^  fs = require('.\/fs');$/;"	f
+addPortableGitToEnv	src/git.coffee	/^addPortableGitToEnv = (env) ->$/;"	f
+addProxyToEnv	src/command.coffee	/^  addProxyToEnv: (env) ->$/;"	m
+add_line	spec/fixtures/r.tmbundle/Support/lib/historyList.rb	/^  def add_line(line)$/;"	f	class:HistoryList
+add_token	spec/fixtures/r.tmbundle/Support/lib/parsing.rb	/^  def add_token(*args)$/;"	f	class:Lexer
+advanced-new-file	deprecated-packages.json	/^  "advanced-new-file": {$/;"	f
+all_deps	native-module/build/Makefile	/^all_deps :=$/;"	m
+alternative	deprecated-packages.json	/^    "alternative": "angularjs"$/;"	f
+alternative	deprecated-packages.json	/^    "alternative": "atom-typescript"$/;"	f
+alternative	deprecated-packages.json	/^    "alternative": "autocomplete-plus-python-jedi"$/;"	f
+alternative	deprecated-packages.json	/^    "alternative": "core"$/;"	f
+alternative	deprecated-packages.json	/^    "alternative": "linter"$/;"	f
+alternative	deprecated-packages.json	/^    "alternative": "preview"$/;"	f
+alternative	deprecated-packages.json	/^    "alternative": "script"$/;"	f
+angularjs-helper	deprecated-packages.json	/^  "angularjs-helper": {$/;"	f
+apex-ui-personalize	deprecated-packages.json	/^  "apex-ui-personalize": {$/;"	f
+api-blueprint-preview	deprecated-packages.json	/^  "api-blueprint-preview": {$/;"	f
+apm	package.json	/^    "apm": ".\/bin\/apm"$/;"	f
+apm	src/config.coffee	/^apm = require '.\/apm'$/;"	v
+apmInstallSource	spec/list-spec.coffee	/^      apmInstallSource =$/;"	v
+apmInstallSource	spec/list-spec.coffee	/^      apmInstallSource:$/;"	f
+apmRun	spec/upgrade-spec.coffee	/^apmRun = (args, callback) ->$/;"	f
+app	spec/clean-spec.coffee	/^    app = express()$/;"	v
+app	spec/docs-spec.coffee	/^    app = express()$/;"	v
+app	spec/featured-spec.coffee	/^    app = express()$/;"	v
+app	spec/install-spec.coffee	/^      app = express()$/;"	v
+app	spec/publish-spec.coffee	/^    app = express()$/;"	v
+app	spec/rebuild-spec.coffee	/^    app = express()$/;"	v
+app	spec/search-spec.coffee	/^    app = express()$/;"	v
+app	spec/stars-spec.coffee	/^    app = express()$/;"	v
+app	spec/unpublish-spec.coffee	/^    app = express()$/;"	v
+app	spec/upgrade-spec.coffee	/^    app = express()$/;"	v
+app	spec/view-spec.coffee	/^    app = express()$/;"	v
+appLocation	src/apm.coffee	/^          appLocation = '\/usr\/share\/atom\/resources\/app.asar'$/;"	v
+appLocation	src/apm.coffee	/^        appLocation = '\/usr\/local\/share\/atom\/resources\/app.asar'$/;"	v
+argv	src/disable.coffee	/^      argv:$/;"	f
+arrow_spacing	coffeelint.json	/^  "arrow_spacing": {$/;"	f
+asar-require	package.json	/^    "asar-require": "0.2.0",$/;"	f
+asarPath	src/apm.coffee	/^      asarPath = "#{appFolder}.asar"$/;"	v
+asciidoc-preview	deprecated-packages.json	/^  "asciidoc-preview": {$/;"	f
+ask-stack	deprecated-packages.json	/^  "ask-stack": {$/;"	f
+assert	src/install.coffee	/^assert = require 'assert'$/;"	v
+assign-align	deprecated-packages.json	/^  "assign-align": {$/;"	f
+asteroids	deprecated-packages.json	/^  "asteroids": {$/;"	f
+async	package.json	/^    "async": "~0.2.8",$/;"	f
+atom	spec/fixtures/install-multi-version.json	/^        "atom": ">=1.0"$/;"	f
+atom	spec/fixtures/install-multi-version.json	/^        "atom": ">=2.0"$/;"	f
+atom	spec/fixtures/package-with-native-deps/package.json	/^    "atom": "*"$/;"	f
+atom	spec/fixtures/test-module-three/package.json	/^    "atom": "*"$/;"	f
+atom	spec/fixtures/test-module-two/package.json	/^    "atom": "*"$/;"	f
+atom	spec/fixtures/test-module/package.json	/^    "atom": "*"$/;"	f
+atom	spec/fixtures/upgrade-different-repo.json	/^        "atom": "*"$/;"	f
+atom	spec/fixtures/upgrade-multi-version.json	/^        "atom": ">=0.4.0"$/;"	f
+atom	spec/fixtures/upgrade-multi-version.json	/^        "atom": ">=0.5.0"$/;"	f
+atom	spec/fixtures/upgrade-multi-version.json	/^        "atom": ">=2.0"$/;"	f
+atom	spec/fixtures/upgrade-multi-version.json	/^        "atom": "invalid"$/;"	f
+atom	spec/fixtures/upgrade-test-module.json	/^        "atom": ">=0.20.0"$/;"	f
+atom	spec/fixtures/wrap-guide.json	/^        "atom": ">=1.0"$/;"	f
+atom	spec/fixtures/wrap-guide.json	/^        "atom": ">=2.0"$/;"	f
+atom	spec/fixtures/wrap-guide.json	/^      "atom": "*"$/;"	f
+atom	spec/publish-spec.coffee	/^        atom: '1'$/;"	f
+atom	templates/bundle/package.json	/^    "atom": ">=1.0.0 <2.0.0"$/;"	f
+atom	templates/language/package.json	/^    "atom": ">=1.0.0 <2.0.0"$/;"	f
+atom	templates/package-coffeescript/package.json	/^    "atom": ">=1.0.0 <2.0.0"$/;"	f
+atom	templates/package-javascript/package.json	/^    "atom": ">=1.0.0 <2.0.0"$/;"	f
+atom	templates/theme/package.json	/^    "atom": ">=1.0.0 <2.0.0"$/;"	f
+atom-2048	deprecated-packages.json	/^  "atom-2048": {$/;"	f
+atom-angularjs	deprecated-packages.json	/^  "atom-angularjs": {$/;"	f
+atom-beautifier	deprecated-packages.json	/^  "atom-beautifier": {$/;"	f
+atom-beautify	deprecated-packages.json	/^  "atom-beautify": {$/;"	f
+atom-browser-webview	deprecated-packages.json	/^  "atom-browser-webview": {$/;"	f
+atom-charcode	deprecated-packages.json	/^  "atom-charcode": {$/;"	f
+atom-cli-diff	deprecated-packages.json	/^  "atom-cli-diff": {$/;"	f
+atom-compile-coffee	deprecated-packages.json	/^  "atom-compile-coffee": {$/;"	f
+atom-ctags	deprecated-packages.json	/^  "atom-ctags": {$/;"	f
+atom-faker	deprecated-packages.json	/^  "atom-faker": {$/;"	f
+atom-flake8	deprecated-packages.json	/^  "atom-flake8": {$/;"	f
+atom-grunt-configs	deprecated-packages.json	/^  "atom-grunt-configs": {$/;"	f
+atom-html-preview	deprecated-packages.json	/^  "atom-html-preview": {$/;"	f
+atom-html5-boilerplate	deprecated-packages.json	/^  "atom-html5-boilerplate": {$/;"	f
+atom-htmlizer	deprecated-packages.json	/^  "atom-htmlizer": {$/;"	f
+atom-jsfmt	deprecated-packages.json	/^  "atom-jsfmt": {$/;"	f
+atom-jshint	deprecated-packages.json	/^  "atom-jshint": {$/;"	f
+atom-lint	deprecated-packages.json	/^  "atom-lint": {$/;"	f
+atom-pair	deprecated-packages.json	/^  "atom-pair": {$/;"	f
+atom-prettify	deprecated-packages.json	/^  "atom-prettify": {$/;"	f
+atom-processing	deprecated-packages.json	/^  "atom-processing": {$/;"	f
+atom-python-debugger	deprecated-packages.json	/^  "atom-python-debugger": {$/;"	f
+atom-rails	deprecated-packages.json	/^  "atom-rails": {$/;"	f
+atom-raml-preview	deprecated-packages.json	/^  "atom-raml-preview": {$/;"	f
+atom-runner	deprecated-packages.json	/^  "atom-runner": {$/;"	f
+atom-semicolons	deprecated-packages.json	/^  "atom-semicolons": {$/;"	f
+atom-spotify	deprecated-packages.json	/^  "atom-spotify": {$/;"	f
+atom-terminal-panel	deprecated-packages.json	/^  "atom-terminal-panel": {$/;"	f
+atom-typescript	deprecated-packages.json	/^  "atom-typescript": {$/;"	f
+atom-ungit	deprecated-packages.json	/^  "atom-ungit": {$/;"	f
+atom-workspace	templates/package-coffeescript/package.json	/^    "atom-workspace": "__package-name__:toggle"$/;"	f
+atom-workspace	templates/package-javascript/package.json	/^    "atom-workspace": "__package-name__:toggle"$/;"	f
+atom-yeoman	deprecated-packages.json	/^  "atom-yeoman": {$/;"	f
+atomCommand	src/test.coffee	/^      atomCommand = 'atom'$/;"	v
+atomDirectory	src/config.coffee	/^    atomDirectory = apm.getAtomDirectory()$/;"	v
+atomPackages	spec/list-spec.coffee	/^    atomPackages =$/;"	v
+atomReturnFn	spec/test-spec.coffee	/^      atomReturnFn = (e, fn) -> fn(code) if e is type$/;"	f
+atomatigit	deprecated-packages.json	/^  "atomatigit": {$/;"	f
+atomic-emacs	deprecated-packages.json	/^  "atomic-emacs": {$/;"	f
+atomic-rest	deprecated-packages.json	/^  "atomic-rest": {$/;"	f
+auth	spec/spec-helper.coffee	/^auth = require '..\/lib\/auth'$/;"	v
+auth	src/login.coffee	/^auth = require '.\/auth'$/;"	v
+auth	src/uninstall.coffee	/^auth = require '.\/auth'$/;"	v
+auth	src/unpublish.coffee	/^auth = require '.\/auth'$/;"	v
+auto-detect-indentation	deprecated-packages.json	/^  "auto-detect-indentation": {$/;"	f
+auto-indent	deprecated-packages.json	/^  "auto-indent": {$/;"	f
+auto-replace-in-selection	deprecated-packages.json	/^  "auto-replace-in-selection": {$/;"	f
+auto-update-packages	deprecated-packages.json	/^  "auto-update-packages": {$/;"	f
+autoclose-html	deprecated-packages.json	/^  "autoclose-html": {$/;"	f
+autocomplete-haskell	deprecated-packages.json	/^  "autocomplete-haskell": {$/;"	f
+autocomplete-jedi	deprecated-packages.json	/^  "autocomplete-jedi": {$/;"	f
+autocomplete-paths	deprecated-packages.json	/^  "autocomplete-paths": {$/;"	f
+autocomplete-phpunit	deprecated-packages.json	/^  "autocomplete-phpunit": {$/;"	f
+autocomplete-plus-async	deprecated-packages.json	/^  "autocomplete-plus-async": {$/;"	f
+autocomplete-plus-jedi	deprecated-packages.json	/^  "autocomplete-plus-jedi": {$/;"	f
+autocomplete-snippets	deprecated-packages.json	/^  "autocomplete-snippets": {$/;"	f
+b	src/text-mate-theme.coffee	/^      b = @parseHexColor(textmateColor[5..6])$/;"	v
+bar	spec/publish-spec.coffee	/^        bar: '1,3'$/;"	f
+bare	src/disable.coffee	/^        bare: true$/;"	f
+bezier-curve-editor	deprecated-packages.json	/^  "bezier-curve-editor": {$/;"	f
+big-cursor	deprecated-packages.json	/^  "big-cursor": {$/;"	f
+bin	package.json	/^  "bin": {$/;"	f
+block-comment	deprecated-packages.json	/^  "block-comment": {$/;"	f
+blue	src/apm-cli.coffee	/^        blue: 'stripColors'$/;"	f
+body	spec/init-spec.coffee	/^          body: 'attach($1) *outlet'$/;"	f
+body	src/publish.coffee	/^          body:$/;"	f
+body	src/publish.coffee	/^        body:$/;"	f
+body	templates/language/snippets/language-__package-name__.cson	/^    'body': '@@ ${1:method} - ${2:description}'$/;"	f
+braces_spacing	coffeelint.json	/^  "braces_spacing": {$/;"	f
+browser-refresh	deprecated-packages.json	/^  "browser-refresh": {$/;"	f
+bugs	package.json	/^  "bugs": {$/;"	f
+buildGlobalSettingsRulesets	src/text-mate-theme.coffee	/^  buildGlobalSettingsRulesets: (settings) ->$/;"	m
+buildModuleCache	src/install.coffee	/^  buildModuleCache: (packageName, callback) ->$/;"	m
+buildOptions.streaming	src/install.coffee	/^      buildOptions.streaming = true if @verbose$/;"	v
+buildRulesets	src/text-mate-theme.coffee	/^  buildRulesets: ->$/;"	m
+buildScopeSelectorRulesets	src/text-mate-theme.coffee	/^  buildScopeSelectorRulesets: (scopeSelectorSettings) ->$/;"	m
+buildSyntaxVariables	src/text-mate-theme.coffee	/^  buildSyntaxVariables: (settings) ->$/;"	m
+builddir	native-module/build/Makefile	/^builddir ?= $(builddir_name)\/$(BUILDTYPE)$/;"	m
+builddir_name	native-module/build/Makefile	/^builddir_name ?= .$/;"	m
+cabal	deprecated-packages.json	/^  "cabal": {$/;"	f
+cache	src/apm.coffee	/^        cache = #{@getCacheDirectory()}$/;"	v
+callback	lib/tree.js	/^    if (callback == null) {$/;"	f
+callbackCalled	src/apm-cli.coffee	/^      callbackCalled = true$/;"	v
+callbackCalled	src/apm-cli.coffee	/^    callbackCalled = false$/;"	v
+callbackCount	spec/command-spec.coffee	/^      callbackCount = 0$/;"	v
+camelize	src/init.coffee	/^  camelize: (string) ->$/;"	m
+change-case	deprecated-packages.json	/^  "change-case": {$/;"	f
+checkNativeBuildTools	src/install.coffee	/^  checkNativeBuildTools: (callback) ->$/;"	m
+child	spec/command-spec.coffee	/^      child = command.spawn "thisisafakecommand", [], ->$/;"	f
+child_process	spec/test-spec.coffee	/^child_process = require 'child_process'$/;"	v
+child_process	src/apm.coffee	/^child_process = require 'child_process'$/;"	v
+child_process	src/command.coffee	/^child_process = require 'child_process'$/;"	v
+chunks	src/install.coffee	/^          chunks = []$/;"	v
+circle-ci	deprecated-packages.json	/^  "circle-ci": {$/;"	f
+clang-format	deprecated-packages.json	/^  "clang-format": {$/;"	f
+clipboard-history	deprecated-packages.json	/^  "clipboard-history": {$/;"	f
+clone-cursor	deprecated-packages.json	/^  "clone-cursor": {$/;"	f
+cloneFirstValidGitUrl	src/install.coffee	/^  cloneFirstValidGitUrl: (urls, cloneDir, options, callback) ->$/;"	m
+cloneNormalizedUrl	src/install.coffee	/^  cloneNormalizedUrl: (url, cloneDir, options, callback) ->$/;"	m
+cloneRepository	src/develop.coffee	/^  cloneRepository: (repoUrl, packageDirectory, options, callback = ->) ->$/;"	m
+cloneUrl	spec/install-spec.coffee	/^        cloneUrl = "file:\/\/#{gitRepo}"$/;"	v
+cloneUrl	spec/upgrade-spec.coffee	/^      cloneUrl = "file:\/\/#{gitRepo}"$/;"	v
+closure-linter	deprecated-packages.json	/^  "closure-linter": {$/;"	f
+cmd_alink	native-module/build/Makefile	/^cmd_alink = rm -f $@ && .\/gyp-mac-tool filter-libtool libtool $(GYP_LIBTOOLFLAGS) -static -o $@ $(filter %.o,$^)$/;"	m
+cmd_cc	native-module/build/Makefile	/^cmd_cc = $(CC.$(TOOLSET)) $(GYP_CFLAGS) $(DEPFLAGS) $(CFLAGS.$(TOOLSET)) -c -o $@ $<$/;"	m
+cmd_copy	native-module/build/Makefile	/^cmd_copy = rm -rf "$@" && cp -af "$<" "$@"$/;"	m
+cmd_cxx	native-module/build/Makefile	/^cmd_cxx = $(CXX.$(TOOLSET)) $(GYP_CXXFLAGS) $(DEPFLAGS) $(CXXFLAGS.$(TOOLSET)) -c -o $@ $<$/;"	m
+cmd_infoplist	native-module/build/Makefile	/^cmd_infoplist = $(CC.$(TOOLSET)) -E -P -Wno-trigraphs -x c $(INFOPLIST_DEFINES) "$<" -o "$@"$/;"	m
+cmd_link	native-module/build/Makefile	/^cmd_link = $(LINK.$(TOOLSET)) $(GYP_LDFLAGS) $(LDFLAGS.$(TOOLSET)) -o "$@" $(LD_INPUTS) $(LIBS)$/;"	m
+cmd_mac_package_framework	native-module/build/Makefile	/^cmd_mac_package_framework = .\/gyp-mac-tool package-framework "$@" $(4)$/;"	m
+cmd_mac_tool	native-module/build/Makefile	/^cmd_mac_tool = .\/gyp-mac-tool $(4) $< "$@"$/;"	m
+cmd_objc	native-module/build/Makefile	/^cmd_objc = $(CC.$(TOOLSET)) $(GYP_OBJCFLAGS) $(DEPFLAGS) -c -o $@ $<$/;"	m
+cmd_objcxx	native-module/build/Makefile	/^cmd_objcxx = $(CXX.$(TOOLSET)) $(GYP_OBJCXXFLAGS) $(DEPFLAGS) -c -o $@ $<$/;"	m
+cmd_pch_c	native-module/build/Makefile	/^cmd_pch_c = $(CC.$(TOOLSET)) $(GYP_PCH_CFLAGS) $(DEPFLAGS) $(CXXFLAGS.$(TOOLSET)) -c -o $@ $<$/;"	m
+cmd_pch_cc	native-module/build/Makefile	/^cmd_pch_cc = $(CC.$(TOOLSET)) $(GYP_PCH_CXXFLAGS) $(DEPFLAGS) $(CXXFLAGS.$(TOOLSET)) -c -o $@ $<$/;"	m
+cmd_pch_m	native-module/build/Makefile	/^cmd_pch_m = $(CC.$(TOOLSET)) $(GYP_PCH_OBJCFLAGS) $(DEPFLAGS) -c -o $@ $<$/;"	m
+cmd_pch_mm	native-module/build/Makefile	/^cmd_pch_mm = $(CC.$(TOOLSET)) $(GYP_PCH_OBJCXXFLAGS) $(DEPFLAGS) -c -o $@ $<$/;"	m
+cmd_regen_makefile	native-module/build/Makefile	/^cmd_regen_makefile = cd $(srcdir); \/Users\/mtilley\/github\/apm\/node_modules\/npm\/node_modules\/node-gyp\/gyp\/gyp_main.py -fmake --ignore-environment "--toplevel-dir=." -I\/Users\/mtilley\/github\/apm\/native-module\/build\/config.gypi -I\/Users\/mtilley\/github\/apm\/node_modules\/npm\/node_modules\/node-gyp\/addon.gypi -I\/private\/var\/folders\/tx\/lmcxjv9n73g0hy0zxf27y_rc0000gn\/T\/apm-home-dir-116221-71735-qxmqav\/.node-gyp\/.node-gyp\/0.10.3\/common.gypi "--depth=." "-Goutput_dir=." "--generator-output=build" "-Dlibrary=shared_library" "-Dvisibility=default" "-Dnode_root_dir=\/private\/var\/folders\/tx\/lmcxjv9n73g0hy0zxf27y_rc0000gn\/T\/apm-home-dir-116221-71735-qxmqav\/.node-gyp\/.node-gyp\/0.10.3" "-Dnode_gyp_dir=\/Users\/mtilley\/github\/apm\/node_modules\/npm\/node_modules\/node-gyp" "-Dmodule_root_dir=\/Users\/mtilley\/github\/apm\/native-module" binding.gyp$/;"	m
+cmd_solink	native-module/build/Makefile	/^cmd_solink = $(LINK.$(TOOLSET)) -shared $(GYP_LDFLAGS) $(LDFLAGS.$(TOOLSET)) -o "$@" $(LD_INPUTS) $(LIBS)$/;"	m
+cmd_solink_module	native-module/build/Makefile	/^cmd_solink_module = $(LINK.$(TOOLSET)) -bundle $(GYP_LDFLAGS) $(LDFLAGS.$(TOOLSET)) -o $@ $(filter-out FORCE_DO_CMD, $^) $(LIBS)$/;"	m
+cmd_touch	native-module/build/Makefile	/^cmd_touch = touch $@$/;"	m
+code-links	deprecated-packages.json	/^  "code-links": {$/;"	f
+codeship-status	deprecated-packages.json	/^  "codeship-status": {$/;"	f
+coffee	Gruntfile.coffee	/^    coffee:$/;"	f
+coffee-compile	deprecated-packages.json	/^  "coffee-compile": {$/;"	f
+coffee-lint	deprecated-packages.json	/^  "coffee-lint": {$/;"	f
+coffee-script	package.json	/^    "coffee-script": "^1.8.0"$/;"	f
+coffee-trace	deprecated-packages.json	/^  "coffee-trace": {$/;"	f
+coffeelint	Gruntfile.coffee	/^    coffeelint:$/;"	f
+coffeescript-preview	deprecated-packages.json	/^  "coffeescript-preview": {$/;"	f
+colon_assignment_spacing	coffeelint.json	/^  "colon_assignment_spacing": {$/;"	f
+color	deprecated-packages.json	/^  "color": {$/;"	f
+color-picker	deprecated-packages.json	/^  "color-picker": {$/;"	f
+colors	package.json	/^    "colors": "~0.6.1",$/;"	f
+colors	src/apm-cli.coffee	/^colors = require 'colors'$/;"	v
+command-logger	deprecated-packages.json	/^  "command-logger": {$/;"	f
+commandArgs	src/stars.coffee	/^    commandArgs = packages.map ({name}) -> name$/;"	f
+commandClasses	src/apm-cli.coffee	/^commandClasses = [$/;"	v
+commandNames	src/dedupe.coffee	/^  @commandNames: ['dedupe']$/;"	f
+commandNames	src/develop.coffee	/^  @commandNames: ['dev', 'develop']$/;"	f
+commandNames	src/disable.coffee	/^  @commandNames: ['disable']$/;"	f
+commandNames	src/featured.coffee	/^  @commandNames: ['featured']$/;"	f
+commandNames	src/list.coffee	/^  @commandNames: ['list', 'ls']$/;"	f
+commandNames	src/publish.coffee	/^  @commandNames: ['publish']$/;"	f
+commandNames	src/rebuild.coffee	/^  @commandNames: ['rebuild']$/;"	f
+commandNames	src/search.coffee	/^  @commandNames: ['search']$/;"	f
+commandNames	src/star.coffee	/^  @commandNames: ['star']$/;"	f
+commandNames	src/stars.coffee	/^  @commandNames: ['stars', 'starred']$/;"	f
+commandNames	src/test.coffee	/^  @commandNames: ['test']$/;"	f
+commandNames	src/upgrade.coffee	/^  @commandNames: ['upgrade', 'outdated', 'update']$/;"	f
+commandNames	src/view.coffee	/^  @commandNames: ['view', 'show']$/;"	f
+command_changed	native-module/build/Makefile	/^command_changed = $(or $(subst $(cmd_$(1)),,$(cmd_$(call replace_spaces,$@))),\\$/;"	m
+commands	src/apm-cli.coffee	/^commands = {}$/;"	v
+commands	src/dedupe.coffee	/^    commands = []$/;"	v
+commands	src/install.coffee	/^          commands = []$/;"	v
+commands	src/install.coffee	/^        commands = []$/;"	v
+commands	src/install.coffee	/^    commands = []$/;"	v
+commands	src/rebuild-module-cache.coffee	/^    commands = []$/;"	v
+commands	src/star.coffee	/^      commands = packageNames.map (packageName) =>$/;"	f
+commands	src/unstar.coffee	/^      commands = packageNames.map (packageName) =>$/;"	f
+comment	deprecated-packages.json	/^  "comment": {$/;"	f
+commentStart	spec/init-spec.coffee	/^          commentStart: '# '$/;"	f
+commentStart	templates/language/settings/language-__package-name__.cson	/^    'commentStart': '@@ '$/;"	f
+compass	deprecated-packages.json	/^  "compass": {$/;"	f
+composer	deprecated-packages.json	/^  "composer": {$/;"	f
+config	src/apm-cli.coffee	/^config = require '.\/apm'$/;"	v
+config	src/clean.coffee	/^config = require '.\/apm'$/;"	v
+config	src/command.coffee	/^config = require '.\/apm'$/;"	v
+config	src/dedupe.coffee	/^config = require '.\/apm'$/;"	v
+config	src/develop.coffee	/^config = require '.\/apm'$/;"	v
+config	src/disable.coffee	/^config = require '.\/apm'$/;"	v
+config	src/docs.coffee	/^config = require '.\/apm'$/;"	v
+config	src/enable.coffee	/^config = require '.\/apm'$/;"	v
+config	src/featured.coffee	/^config = require '.\/apm'$/;"	v
+config	src/git.coffee	/^config = require '.\/apm'$/;"	v
+config	src/install.coffee	/^config = require '.\/apm'$/;"	v
+config	src/link.coffee	/^config = require '.\/apm'$/;"	v
+config	src/links.coffee	/^config = require '.\/apm'$/;"	v
+config	src/list.coffee	/^config = require '.\/apm'$/;"	v
+config	src/publish.coffee	/^config = require '.\/apm'$/;"	v
+config	src/rebuild-module-cache.coffee	/^config = require '.\/apm'$/;"	v
+config	src/rebuild.coffee	/^config = require '.\/apm'$/;"	v
+config	src/request.coffee	/^config = require '.\/apm'$/;"	v
+config	src/search.coffee	/^config = require '.\/apm'$/;"	v
+config	src/star.coffee	/^config = require '.\/apm'$/;"	v
+config	src/stars.coffee	/^config = require '.\/apm'$/;"	v
+config	src/uninstall.coffee	/^config = require '.\/apm'$/;"	v
+config	src/unlink.coffee	/^config = require '.\/apm'$/;"	v
+config	src/unpublish.coffee	/^config = require '.\/apm'$/;"	v
+config	src/unstar.coffee	/^config = require '.\/apm'$/;"	v
+config	src/upgrade.coffee	/^config = require '.\/apm'$/;"	v
+config	src/view.coffee	/^config = require '.\/apm'$/;"	v
+configureRequest	lib/request.js	/^  };$/;"	f
+configureRequest	src/request.coffee	/^configureRequest = (requestOptions, callback) ->$/;"	f
+constructor	src/clean.coffee	/^  constructor: ->$/;"	m
+constructor	src/config.coffee	/^  constructor: ->$/;"	m
+constructor	src/dedupe.coffee	/^  constructor: ->$/;"	m
+constructor	src/develop.coffee	/^  constructor: ->$/;"	m
+constructor	src/install.coffee	/^  constructor: ->$/;"	m
+constructor	src/links.coffee	/^  constructor: ->$/;"	m
+constructor	src/list.coffee	/^  constructor: ->$/;"	m
+constructor	src/package-converter.coffee	/^  constructor: (@sourcePath, destinationPath) ->$/;"	m
+constructor	src/publish.coffee	/^  constructor: ->$/;"	m
+constructor	src/rebuild-module-cache.coffee	/^  constructor: ->$/;"	m
+constructor	src/rebuild.coffee	/^  constructor: ->$/;"	m
+constructor	src/text-mate-theme.coffee	/^  constructor: (@contents) ->$/;"	m
+constructor	src/theme-converter.coffee	/^  constructor: (@sourcePath, destinationPath) ->$/;"	m
+constructor	src/unlink.coffee	/^  constructor: ->$/;"	m
+constructor	src/upgrade.coffee	/^  constructor: ->$/;"	m
+contents	src/text-mate-theme.coffee	/^  constructor: (@contents) ->$/;"	f
+convert	src/package-converter.coffee	/^  convert: (callback) ->$/;"	m
+convert	src/theme-converter.coffee	/^  convert: (callback) ->$/;"	m
+convert-to-utf8	deprecated-packages.json	/^  "convert-to-utf8": {$/;"	f
+convertFile	src/package-converter.coffee	/^  convertFile: (sourcePath, destinationDir) ->$/;"	m
+convertGrammars	src/package-converter.coffee	/^  convertGrammars: (source) ->$/;"	m
+convertPackage	src/init.coffee	/^  convertPackage: (sourcePath, destinationPath, callback) ->$/;"	m
+convertPreferences	src/package-converter.coffee	/^  convertPreferences: (packageName, source) ->$/;"	m
+convertSettings	src/package-converter.coffee	/^  convertSettings: (settings) ->$/;"	m
+convertSnippets	src/package-converter.coffee	/^  convertSnippets: (packageName, source) ->$/;"	m
+convertTheme	src/init.coffee	/^  convertTheme: (sourcePath, destinationPath, callback) ->$/;"	m
+copyDirectories	src/package-converter.coffee	/^  copyDirectories: (sourcePath, callback) ->$/;"	m
+copyNodeBinToLocation	script/download-node.js	/^var copyNodeBinToLocation = function(callback, version, targetFilename, fromDirectory) {$/;"	f
+core	spec/disable-spec.coffee	/^        core:$/;"	f
+core	spec/disable-spec.coffee	/^      core:$/;"	f
+core	spec/enable-spec.coffee	/^        core:$/;"	f
+core	spec/enable-spec.coffee	/^      core:$/;"	f
+core	src/list.coffee	/^      core: []$/;"	f
+count	spec/install-spec.coffee	/^        count = 0$/;"	v
+coverage	deprecated-packages.json	/^  "coverage": {$/;"	f
+cp	src/fs.coffee	/^  cp: (sourcePath, destinationPath, callback) ->$/;"	m
+createAtomDirectories	src/dedupe.coffee	/^  createAtomDirectories: ->$/;"	m
+createAtomDirectories	src/install.coffee	/^  createAtomDirectories: ->$/;"	m
+createFakePackage	spec/list-spec.coffee	/^createFakePackage = (type, metadata) ->$/;"	f
+createPackageVersion	src/publish.coffee	/^  createPackageVersion: (packageName, tag, options, callback) ->$/;"	m
+createReadStream	src/request.coffee	/^  createReadStream: (requestOptions, callback) ->$/;"	m
+csscomb	deprecated-packages.json	/^  "csscomb": {$/;"	f
+ctags-status	deprecated-packages.json	/^  "ctags-status": {$/;"	f
+ctor	lib/clean.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },$/;"	c
+ctor	lib/config.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/dedupe.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },$/;"	c
+ctor	lib/develop.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },$/;"	c
+ctor	lib/disable.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },$/;"	c
+ctor	lib/docs.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/enable.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/featured.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/init.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },$/;"	c
+ctor	lib/install.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },$/;"	c
+ctor	lib/link.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/links.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/list.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/login.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/publish.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },$/;"	c
+ctor	lib/rebuild-module-cache.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/rebuild.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/search.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/star.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/stars.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/test.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/uninstall.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/unlink.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/unpublish.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/unstar.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/upgrade.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+ctor	lib/view.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+cucumber-runner	deprecated-packages.json	/^  "cucumber-runner": {$/;"	f
+cucumber-step	deprecated-packages.json	/^  "cucumber-step": {$/;"	f
+currentDirectory	src/publish.coffee	/^    currentDirectory = process.cwd()$/;"	v
+custom-title	deprecated-packages.json	/^  "custom-title": {$/;"	f
+cut-line	deprecated-packages.json	/^  "cut-line": {$/;"	f
+cwd	Gruntfile.coffee	/^        cwd: 'src'$/;"	f
+cyan	src/apm-cli.coffee	/^        cyan: 'stripColors'$/;"	f
+d_files	native-module/build/Makefile	/^d_files := $(wildcard $(foreach f,$(all_deps),$(depsdir)\/$(f).d))$/;"	m
+dash	deprecated-packages.json	/^  "dash": {$/;"	f
+dasherize	src/init.coffee	/^  dasherize: (string) ->$/;"	m
+data-atom	deprecated-packages.json	/^  "data-atom": {$/;"	f
+data.metadata	src/install.coffee	/^        data.metadata = metadata$/;"	v
+data.metadata.apmInstallSource	src/install.coffee	/^      data.metadata.apmInstallSource =$/;"	v
+data.metadataFilePath	src/install.coffee	/^        data.metadataFilePath = metadataFilePath$/;"	v
+data.sha	src/install.coffee	/^        data.sha = sha$/;"	v
+debug	src/request.coffee	/^  debug: (debug) ->$/;"	m
+dedupeModules	src/dedupe.coffee	/^  dedupeModules: (options, callback) ->$/;"	m
+del	src/request.coffee	/^  del: (requestOptions, callback) ->$/;"	m
+dependencies	package.json	/^  "dependencies": {$/;"	f
+dependencies	spec/fixtures/package-with-native-deps/package.json	/^  "dependencies": {$/;"	f
+dependencies	spec/fixtures/test-module-with-dependencies/package.json	/^  "dependencies": {$/;"	f
+dependencies	spec/publish-spec.coffee	/^      dependencies:$/;"	f
+dependencies	templates/bundle/package.json	/^  "dependencies": {$/;"	f
+dependencies	templates/package-coffeescript/package.json	/^  "dependencies": {$/;"	f
+dependencies	templates/package-javascript/package.json	/^  "dependencies": {$/;"	f
+depfile	native-module/build/Makefile	/^depfile = $(depsdir)\/$(call replace_spaces,$@).d$/;"	m
+depsdir	native-module/build/Makefile	/^depsdir := $(builddir)\/.deps$/;"	m
+description	package.json	/^  "description": "Atom package manager",$/;"	f
+description	spec/fixtures/available.json	/^      "description": "Home of the peach pit after dark"$/;"	f
+description	spec/fixtures/available.json	/^      "description": "Racecars, lasers, airplanes"$/;"	f
+description	spec/fixtures/packages.json	/^      "description": "Home of the peach pit after dark"$/;"	f
+description	spec/fixtures/search.json	/^      "description": "Life is like a hurricane"$/;"	f
+description	spec/fixtures/search.json	/^      "description": "Might solve a mystery or rewrite history"$/;"	f
+description	spec/fixtures/search.json	/^      "description": "Racecars, lasers, airplanes"$/;"	f
+description	spec/fixtures/themes.json	/^      "description": "Racecars, lasers, airplanes"$/;"	f
+description	spec/fixtures/wrap-guide.json	/^      "description": "new version",$/;"	f
+description	spec/fixtures/wrap-guide.json	/^      "description": "old version",$/;"	f
+description	spec/fixtures/wrap-guide.json	/^    "description": "Display a vertical line at the 80th character in the editor.\\n\\nThis packages uses the config value of `editor.preferredLineLength` when set.",$/;"	f
+description	templates/bundle/package.json	/^  "description": "A short description of your package",$/;"	f
+description	templates/language/package.json	/^  "description": "A short description of your language package",$/;"	f
+description	templates/package-coffeescript/package.json	/^  "description": "A short description of your package",$/;"	f
+description	templates/package-javascript/package.json	/^  "description": "A short description of your package",$/;"	f
+description	templates/theme/package.json	/^  "description": "A short description of your syntax theme",$/;"	f
+dest	Gruntfile.coffee	/^        dest: 'lib'$/;"	f
+dev	src/list.coffee	/^      dev: []$/;"	f
+devDependencies	package.json	/^  "devDependencies": {$/;"	f
+devDependencies	spec/publish-spec.coffee	/^      devDependencies:$/;"	f
+devdocs	deprecated-packages.json	/^  "devdocs": {$/;"	f
+directoryMappings	src/package-converter.coffee	/^    @directoryMappings = {$/;"	f
+dirx	native-module/build/Makefile	/^dirx = $(call unreplace_spaces,$(dir $(call replace_spaces,$1)))$/;"	m
+disabledPackages	spec/disable-spec.coffee	/^          disabledPackages: [$/;"	f
+disabledPackages	spec/disable-spec.coffee	/^        disabledPackages: [$/;"	f
+disabledPackages	spec/enable-spec.coffee	/^          disabledPackages: [$/;"	f
+disabledPackages	spec/enable-spec.coffee	/^        disabledPackages: [$/;"	f
+dist	spec/fixtures/atom-2048.json	/^      "dist": {$/;"	f
+dist	spec/fixtures/install-multi-version.json	/^      "dist": {$/;"	f
+dist	spec/fixtures/install-test-module-with-bin.json	/^            "dist": {$/;"	f
+dist	spec/fixtures/install-test-module-with-symlink.json	/^            "dist": {$/;"	f
+dist	spec/fixtures/install-test-module.json	/^            "dist": {$/;"	f
+dist	spec/fixtures/install-test-module2.json	/^            "dist": {$/;"	f
+django-templates	deprecated-packages.json	/^  "django-templates": {$/;"	f
+do_cmd	native-module/build/Makefile	/^define do_cmd$/;"	m
+do_postbuilds	native-module/build/Makefile	/^define do_postbuilds$/;"	m
+docblockr	deprecated-packages.json	/^  "docblockr": {$/;"	f
+doneCallback	src/clean.coffee	/^      doneCallback = (error) =>$/;"	f
+downloadBundle	src/package-converter.coffee	/^  downloadBundle: (callback) ->$/;"	m
+downloadFileToLocation	script/download-node.js	/^var downloadFileToLocation = function(url, filename, callback) {$/;"	f
+downloadNode	script/download-node.js	/^var downloadNode = function(version, done) {$/;"	f
+downloadNode.downloadFile	script/download-node.js	/^  var downloadFile = function() {$/;"	f
+downloadPackage	src/install.coffee	/^  downloadPackage: (packageUrl, installGlobally, callback) ->$/;"	m
+downloadTarballAndExtract	script/download-node.js	/^var downloadTarballAndExtract = function(url, location, callback) {$/;"	f
+downloadUrl	src/package-converter.coffee	/^    downloadUrl = @sourcePath$/;"	v
+easy-motion	deprecated-packages.json	/^  "easy-motion": {$/;"	f
+editor	templates/language/settings/language-__package-name__.cson	/^  'editor':$/;"	f
+editor-stats	deprecated-packages.json	/^  "editor-stats": {$/;"	f
+editorProperties	src/package-converter.coffee	/^    editorProperties = _.compactObject($/;"	v
+editorconfig	deprecated-packages.json	/^  "editorconfig": {$/;"	f
+elixir-cmd	deprecated-packages.json	/^  "elixir-cmd": {$/;"	f
+emacs-mode	deprecated-packages.json	/^  "emacs-mode": {$/;"	f
+ember-cli-helper	deprecated-packages.json	/^  "ember-cli-helper": {$/;"	f
+emmet	deprecated-packages.json	/^  "emmet": {$/;"	f
+emp-debugger	deprecated-packages.json	/^  "emp-debugger": {$/;"	f
+emp-template-management	deprecated-packages.json	/^  "emp-template-management": {$/;"	f
+empty	native-module/build/Makefile	/^empty :=$/;"	m
+engines	spec/fixtures/install-multi-version.json	/^      "engines": {$/;"	f
+engines	spec/fixtures/package-with-native-deps/package.json	/^  "engines": {$/;"	f
+engines	spec/fixtures/test-module-three/package.json	/^  "engines": {$/;"	f
+engines	spec/fixtures/test-module-two/package.json	/^  "engines": {$/;"	f
+engines	spec/fixtures/test-module/package.json	/^  "engines": {$/;"	f
+engines	spec/fixtures/upgrade-different-repo.json	/^      "engines": {$/;"	f
+engines	spec/fixtures/upgrade-multi-version.json	/^      "engines": {$/;"	f
+engines	spec/fixtures/upgrade-test-module.json	/^      "engines": {$/;"	f
+engines	spec/fixtures/wrap-guide.json	/^      "engines": {$/;"	f
+engines	spec/fixtures/wrap-guide.json	/^    "engines": {$/;"	f
+engines	spec/publish-spec.coffee	/^      engines:$/;"	f
+engines	templates/bundle/package.json	/^  "engines": {$/;"	f
+engines	templates/language/package.json	/^  "engines": {$/;"	f
+engines	templates/package-coffeescript/package.json	/^  "engines": {$/;"	f
+engines	templates/package-javascript/package.json	/^  "engines": {$/;"	f
+engines	templates/theme/package.json	/^  "engines": {$/;"	f
+enhanced-tabs	deprecated-packages.json	/^  "enhanced-tabs": {$/;"	f
+erb-snippets	deprecated-packages.json	/^  "erb-snippets": {$/;"	f
+error-status	deprecated-packages.json	/^  "error-status": {$/;"	f
+errorChunks	src/command.coffee	/^    errorChunks = []$/;"	v
+esc	spec/fixtures/r.tmbundle/Support/tmR.rb	/^def esc(str)$/;"	f
+escape_quotes	native-module/build/Makefile	/^escape_quotes = $(subst ','\\'',$(1))$/;"	m
+escape_vars	native-module/build/Makefile	/^escape_vars = $(subst $$,$$$$,$(1))$/;"	m
+eslint	deprecated-packages.json	/^  "eslint": {$/;"	f
+eval	deprecated-packages.json	/^  "eval": {$/;"	f
+ex-mode	deprecated-packages.json	/^  "ex-mode": {$/;"	f
+exact_echo	native-module/build/Makefile	/^exact_echo = printf '%s\\n' '$(call escape_quotes,$(1))'$/;"	m
+execute-as-ruby	deprecated-packages.json	/^  "execute-as-ruby": {$/;"	f
+exit	package.json	/^    "exit": "0.1.2",$/;"	f
+exit	src/cli.coffee	/^    exit = require('exit')$/;"	v
+exited	spec/command-spec.coffee	/^        exited = true$/;"	v
+exited	spec/command-spec.coffee	/^      exited = false$/;"	v
+expand	Gruntfile.coffee	/^        expand: true$/;"	f
+expand-selection	deprecated-packages.json	/^  "expand-selection": {$/;"	f
+explicit-reload	deprecated-packages.json	/^  "explicit-reload": {$/;"	f
+exports	Gruntfile.coffee	/^module.exports = (grunt) ->$/;"	f
+exports	src/tree.coffee	/^module.exports = (items, options={}, callback) ->$/;"	f
+exports.addGitToEnv	lib/git.js	/^  };$/;"	f
+exports.getGitVersion	lib/git.js	/^  };$/;"	f
+exports.isDeprecatedPackage	lib/deprecated-packages.js	/^  deprecatedPackages = null;$/;"	f
+express	package.json	/^    "express": "~3.2.3",$/;"	f
+express	spec/clean-spec.coffee	/^express = require 'express'$/;"	v
+express	spec/docs-spec.coffee	/^express = require 'express'$/;"	v
+express	spec/featured-spec.coffee	/^express = require 'express'$/;"	v
+express	spec/install-spec.coffee	/^express = require 'express'$/;"	v
+express	spec/publish-spec.coffee	/^express = require 'express'$/;"	v
+express	spec/rebuild-spec.coffee	/^express = require 'express'$/;"	v
+express	spec/search-spec.coffee	/^express = require 'express'$/;"	v
+express	spec/stars-spec.coffee	/^express = require 'express'$/;"	v
+express	spec/unpublish-spec.coffee	/^express = require 'express'$/;"	v
+express	spec/upgrade-spec.coffee	/^express = require 'express'$/;"	v
+express	spec/view-spec.coffee	/^express = require 'express'$/;"	v
+ext	Gruntfile.coffee	/^        ext: '.js'$/;"	f
+extract_command	spec/fixtures/r.tmbundle/Support/lib/historyList.rb	/^def extract_command(string)$/;"	f
+failOnError	Gruntfile.coffee	/^          failOnError: true$/;"	f
+fakeCloneRepository	spec/install-spec.coffee	/^          fakeCloneRepository = (url, args...) ->$/;"	f
+fancy-new-file	deprecated-packages.json	/^  "fancy-new-file": {$/;"	f
+fcntl	native-module/build/gyp-mac-tool	/^import fcntl$/;"	i
+file-icon-supplement	deprecated-packages.json	/^  "file-icon-supplement": {$/;"	f
+file-icons	deprecated-packages.json	/^  "file-icons": {$/;"	f
+file-types	deprecated-packages.json	/^  "file-types": {$/;"	f
+filePath	src/install.coffee	/^    filePath = path.resolve(filePath)$/;"	v
+fileTypes	templates/language/grammars/__package-name__.cson	/^'fileTypes': [$/;"	f
+filetype-color	deprecated-packages.json	/^  "filetype-color": {$/;"	f
+filterObject	src/package-converter.coffee	/^  filterObject: (object) ->$/;"	m
+findPassword	src/auth.coffee	/^      findPassword: ->$/;"	m
+firepad	deprecated-packages.json	/^  "firepad": {$/;"	f
+first-mate	package.json	/^    "first-mate": "^5.0",$/;"	f
+fixup_dep	native-module/build/Makefile	/^define fixup_dep$/;"	m
+flake8	deprecated-packages.json	/^  "flake8": {$/;"	f
+floobits	deprecated-packages.json	/^  "floobits": {$/;"	f
+fnmatch	native-module/build/gyp-mac-tool	/^import fnmatch$/;"	i
+foo	spec/publish-spec.coffee	/^        foo: '^5'$/;"	f
+foo	spec/publish-spec.coffee	/^        foo: '^^'$/;"	f
+fork	src/command.coffee	/^  fork: (script, args, remaining...) ->$/;"	m
+forkDedupeCommand	src/dedupe.coffee	/^  forkDedupeCommand: (options, callback) ->$/;"	m
+forkInstallCommand	src/install.coffee	/^  forkInstallCommand: (options, callback) ->$/;"	m
+forkNpmRebuild	src/rebuild.coffee	/^  forkNpmRebuild: (options, callback) ->$/;"	m
+fs	spec/apm-cli-spec.coffee	/^fs = require 'fs'$/;"	v
+fs	spec/enable-spec.coffee	/^fs = require 'fs'$/;"	v
+fs	spec/init-spec.coffee	/^fs = require '..\/lib\/fs'$/;"	v
+fs	spec/install-spec.coffee	/^fs = require '..\/lib\/fs'$/;"	v
+fs	spec/link-spec.coffee	/^fs = require 'fs'$/;"	v
+fs	spec/test-spec.coffee	/^fs = require 'fs'$/;"	v
+fs	src/apm-cli.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/apm.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/clean.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/dedupe.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/develop.coffee	/^fs = require 'fs'$/;"	v
+fs	src/git.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/init.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/install.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/link.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/links.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/list.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/package-converter.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/publish.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/rebuild-module-cache.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/star.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/test.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/theme-converter.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/uninstall.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/unlink.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/unpublish.coffee	/^fs = require '.\/fs'$/;"	v
+fs	src/upgrade.coffee	/^fs = require '.\/fs'$/;"	v
+fs-plus	package.json	/^    "fs-plus": "2.x",$/;"	f
+fsAdditions	src/fs.coffee	/^fsAdditions =$/;"	v
+fsAdditions.cp	lib/fs.js	/^    },$/;"	m
+fsAdditions.list	lib/fs.js	/^  fsAdditions = {$/;"	m
+fsAdditions.listRecursive	lib/fs.js	/^    },$/;"	m
+function-name-in-status-bar	deprecated-packages.json	/^  "function-name-in-status-bar": {$/;"	f
+function.ctor	lib/clean.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },$/;"	c
+function.ctor	lib/config.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/dedupe.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },$/;"	c
+function.ctor	lib/develop.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },$/;"	c
+function.ctor	lib/disable.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },$/;"	c
+function.ctor	lib/docs.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/enable.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/featured.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/init.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },$/;"	c
+function.ctor	lib/install.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },$/;"	c
+function.ctor	lib/link.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/links.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/list.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/login.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/publish.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },$/;"	c
+function.ctor	lib/rebuild-module-cache.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/rebuild.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/search.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/star.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/stars.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/test.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/uninstall.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/unlink.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/unpublish.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/unstar.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/upgrade.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+function.ctor	lib/view.js	/^    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; };$/;"	c
+fuzzy-finder	deprecated-packages.json	/^  "fuzzy-finder": {$/;"	f
+g	src/text-mate-theme.coffee	/^      g = @parseHexColor(textmateColor[3..4])$/;"	v
+generateFromTemplate	src/init.coffee	/^  generateFromTemplate: (packagePath, templatePath, packageName) ->$/;"	m
+get	src/request.coffee	/^  get: (requestOptions, callback) ->$/;"	m
+get-routes	deprecated-packages.json	/^  "get-routes": {$/;"	f
+getAllFeaturedPackages	src/featured.coffee	/^  getAllFeaturedPackages: (atomVersion, callback) ->$/;"	m
+getAtomApiUrl	src/apm.coffee	/^  getAtomApiUrl: ->$/;"	m
+getAtomDirectory	src/apm.coffee	/^  getAtomDirectory: ->$/;"	m
+getAtomPackagesUrl	src/apm.coffee	/^  getAtomPackagesUrl: ->$/;"	m
+getAvailableUpdates	src/upgrade.coffee	/^  getAvailableUpdates: (packages, callback) ->$/;"	m
+getCacheDirectory	src/apm.coffee	/^  getCacheDirectory: ->$/;"	m
+getDependencies	src/clean.coffee	/^  getDependencies: (modulePath, allDependencies) ->$/;"	m
+getDevPackagePath	src/links.coffee	/^  getDevPackagePath: (packageName) -> path.join(@devPackagesPath, packageName)$/;"	m
+getDevPackagePath	src/unlink.coffee	/^  getDevPackagePath: (packageName) -> path.join(@devPackagesPath, packageName)$/;"	m
+getDownloadUrl	src/package-converter.coffee	/^  getDownloadUrl: ->$/;"	m
+getElectronArch	src/apm.coffee	/^  getElectronArch: ->$/;"	m
+getElectronUrl	src/apm.coffee	/^  getElectronUrl: ->$/;"	m
+getErrorMessage	src/request.coffee	/^  getErrorMessage: (response, body) ->$/;"	m
+getFeaturedPackagesByType	src/featured.coffee	/^  getFeaturedPackagesByType: (atomVersion, packageType, callback) ->$/;"	m
+getGitErrorMessage	src/install.coffee	/^  getGitErrorMessage: (pack) ->$/;"	m
+getGitVersion	src/git.coffee	/^exports.getGitVersion = (callback) ->$/;"	f
+getGlobalConfigPath	src/apm.coffee	/^  getGlobalConfigPath: ->$/;"	m
+getHomeDirectory	src/apm.coffee	/^  getHomeDirectory: ->$/;"	m
+getHostedGitInfo	src/install.coffee	/^  getHostedGitInfo: (name) ->$/;"	m
+getInstallNodeVersion	script/download-node.js	/^var getInstallNodeVersion = function(filename, callback) {$/;"	f
+getInstalledPackageNames	src/star.coffee	/^  getInstalledPackageNames: ->$/;"	m
+getInstalledPackages	src/disable.coffee	/^  getInstalledPackages: (callback) ->$/;"	m
+getInstalledPackages	src/upgrade.coffee	/^  getInstalledPackages: (options) ->$/;"	m
+getInstalledVisualStudioFlag	src/apm.coffee	/^  getInstalledVisualStudioFlag: ->$/;"	m
+getIntalledPackage	src/upgrade.coffee	/^  getIntalledPackage: (name) ->$/;"	m
+getLatestCompatibleVersion	src/install.coffee	/^  getLatestCompatibleVersion: (pack) ->$/;"	m
+getLatestCompatibleVersion	src/view.coffee	/^  getLatestCompatibleVersion: (pack, options, callback) ->$/;"	m
+getLatestSha	src/upgrade.coffee	/^  getLatestSha: (pack, callback) ->$/;"	m
+getLatestVersion	src/upgrade.coffee	/^  getLatestVersion: (pack, callback) ->$/;"	m
+getLatestVersionOrSha	src/upgrade.coffee	/^    getLatestVersionOrSha = (pack, done) =>$/;"	f
+getModulesToRemove	src/clean.coffee	/^  getModulesToRemove: ->$/;"	m
+getNormalizedGitUrls	src/install.coffee	/^  getNormalizedGitUrls: (packageUrl) ->$/;"	m
+getPackage	src/view.coffee	/^  getPackage: (packageName, options, callback) ->$/;"	m
+getPackageCachePath	src/install.coffee	/^  getPackageCachePath: (packageName, packageVersion, callback) ->$/;"	m
+getPackageDependencies	src/install.coffee	/^  getPackageDependencies: ->$/;"	m
+getPackagePath	src/links.coffee	/^  getPackagePath: (packageName) -> path.join(@packagesPath, packageName)$/;"	m
+getPackagePath	src/unlink.coffee	/^  getPackagePath: (packageName) -> path.join(@packagesPath, packageName)$/;"	m
+getPackageVersion	src/uninstall.coffee	/^  getPackageVersion: (packageDirectory) ->$/;"	m
+getPythonVersion	lib/apm-cli.js	/^  };$/;"	f
+getPythonVersion	src/apm-cli.coffee	/^getPythonVersion = (callback) ->$/;"	f
+getReposDirectory	src/apm.coffee	/^  getReposDirectory: ->$/;"	m
+getRepository	src/packages.coffee	/^  getRepository: (pack={}) ->$/;"	m
+getRepository	src/view.coffee	/^  getRepository: (pack) ->$/;"	m
+getRepositoryHeadSha	src/install.coffee	/^  getRepositoryHeadSha: (repoDir, callback) ->$/;"	m
+getRepositoryUrl	src/develop.coffee	/^  getRepositoryUrl: (packageName, callback) ->$/;"	m
+getResourcePath	src/apm.coffee	/^  getResourcePath: (callback) ->$/;"	m
+getResourcePath	src/command.coffee	/^  getResourcePath: (callback) ->$/;"	m
+getResourcePath	src/rebuild-module-cache.coffee	/^  getResourcePath: (callback) ->$/;"	m
+getRulesets	src/text-mate-theme.coffee	/^  getRulesets: -> @rulesets$/;"	m
+getSetting	src/apm.coffee	/^  getSetting: (key, callback) ->$/;"	m
+getStarredPackages	src/stars.coffee	/^  getStarredPackages: (user, atomVersion, callback) ->$/;"	m
+getStylesheet	src/text-mate-theme.coffee	/^  getStylesheet: ->$/;"	m
+getSymlinks	src/links.coffee	/^  getSymlinks: (directoryPath) ->$/;"	m
+getSyntaxVariables	src/text-mate-theme.coffee	/^  getSyntaxVariables: -> @syntaxVariables$/;"	m
+getTemplatePath	src/init.coffee	/^  getTemplatePath: (argv, templateType) ->$/;"	m
+getToken	src/auth.coffee	/^  getToken: (callback) ->$/;"	m
+getToken	src/login.coffee	/^  getToken: (state) =>$/;"	m
+getTokenOrLogin	src/login.coffee	/^  @getTokenOrLogin: (callback) ->$/;"	m
+getUserConfigPath	src/apm.coffee	/^  getUserConfigPath: ->$/;"	m
+getVisualStudioFlags	src/command.coffee	/^  getVisualStudioFlags: ->$/;"	m
+getVisualStudioFlags	src/dedupe.coffee	/^  getVisualStudioFlags: ->$/;"	m
+gist-it	deprecated-packages.json	/^  "gist-it": {$/;"	f
+git	src/apm-cli.coffee	/^git = require '.\/git'$/;"	v
+git	src/command.coffee	/^git = require '.\/git'$/;"	v
+git	src/develop.coffee	/^git = require '.\/git'$/;"	v
+git	src/list.coffee	/^      git: []$/;"	f
+git	src/upgrade.coffee	/^git = require '.\/git'$/;"	v
+git-blame	deprecated-packages.json	/^  "git-blame": {$/;"	f
+git-control	deprecated-packages.json	/^  "git-control": {$/;"	f
+git-diff	deprecated-packages.json	/^  "git-diff": {$/;"	f
+git-diff-details	deprecated-packages.json	/^  "git-diff-details": {$/;"	f
+git-log	deprecated-packages.json	/^  "git-log": {$/;"	f
+git-plus	deprecated-packages.json	/^  "git-plus": {$/;"	f
+git-review	deprecated-packages.json	/^  "git-review": {$/;"	f
+git-tab-status	deprecated-packages.json	/^  "git-tab-status": {$/;"	f
+git-utils	package.json	/^    "git-utils": "^4.0",$/;"	f
+github-issues	deprecated-packages.json	/^  "github-issues": {$/;"	f
+gitignore-snippets	deprecated-packages.json	/^  "gitignore-snippets": {$/;"	f
+gitter	deprecated-packages.json	/^  "gitter": {$/;"	f
+glob	native-module/build/gyp-mac-tool	/^import glob$/;"	i
+glob_to_multiple	Gruntfile.coffee	/^      glob_to_multiple:$/;"	f
+global.silenceOutput	spec/spec-helper.coffee	/^global.silenceOutput = (callThrough = false) ->$/;"	f
+global.spyOnToken	spec/spec-helper.coffee	/^global.spyOnToken = ->$/;"	f
+go-oracle	deprecated-packages.json	/^  "go-oracle": {$/;"	f
+go-plus	deprecated-packages.json	/^  "go-plus": {$/;"	f
+go-to-view	deprecated-packages.json	/^  "go-to-view": {$/;"	f
+gocode	deprecated-packages.json	/^  "gocode": {$/;"	f
+gradle-ci	deprecated-packages.json	/^  "gradle-ci": {$/;"	f
+green	src/apm-cli.coffee	/^        green: 'stripColors'$/;"	f
+grunt	package.json	/^    "grunt": "~0.4.1",$/;"	f
+grunt-cli	package.json	/^    "grunt-cli": "~0.1.8",$/;"	f
+grunt-coffeelint	package.json	/^    "grunt-coffeelint": "0.0.15",$/;"	f
+grunt-contrib-coffee	package.json	/^    "grunt-contrib-coffee": "~0.12.0",$/;"	f
+grunt-runner	deprecated-packages.json	/^  "grunt-runner": {$/;"	f
+grunt-shell	package.json	/^    "grunt-shell": "~0.2.2",$/;"	f
+gulp-helper	deprecated-packages.json	/^  "gulp-helper": {$/;"	f
+gutter-shadow	deprecated-packages.json	/^  "gutter-shadow": {$/;"	f
+hasAlternative	deprecated-packages.json	/^    "hasAlternative": true,$/;"	f
+hasDeprecations	deprecated-packages.json	/^    "hasDeprecations": true,$/;"	f
+hasRepo	src/upgrade.coffee	/^  hasRepo: (pack) ->$/;"	m
+headers	src/publish.coffee	/^          headers:$/;"	f
+headers	src/publish.coffee	/^        headers:$/;"	f
+headers	src/star.coffee	/^      headers:$/;"	f
+headers	src/uninstall.coffee	/^        headers:$/;"	f
+headers	src/unpublish.coffee	/^        headers:$/;"	f
+headers	src/unstar.coffee	/^      headers:$/;"	f
+hiera-eyaml	deprecated-packages.json	/^  "hiera-eyaml": {$/;"	f
+highlight-column	deprecated-packages.json	/^  "highlight-column": {$/;"	f
+highlight-cov	deprecated-packages.json	/^  "highlight-cov": {$/;"	f
+highlight-css-color	deprecated-packages.json	/^  "highlight-css-color": {$/;"	f
+highlight-line	deprecated-packages.json	/^  "highlight-line": {$/;"	f
+highlight-selected	deprecated-packages.json	/^  "highlight-selected": {$/;"	f
+hipster-ipsum	deprecated-packages.json	/^  "hipster-ipsum": {$/;"	f
+hosted-git-info	package.json	/^    "hosted-git-info": "^2.1.4",$/;"	f
+html-entities	deprecated-packages.json	/^  "html-entities": {$/;"	f
+html-helper	deprecated-packages.json	/^  "html-helper": {$/;"	f
+html-img	deprecated-packages.json	/^  "html-img": {$/;"	f
+html2haml	deprecated-packages.json	/^  "html2haml": {$/;"	f
+html2jade	deprecated-packages.json	/^  "html2jade": {$/;"	f
+htmlhint	deprecated-packages.json	/^  "htmlhint": {$/;"	f
+http	spec/clean-spec.coffee	/^http = require 'http'$/;"	v
+http	spec/docs-spec.coffee	/^http = require 'http'$/;"	v
+http	spec/featured-spec.coffee	/^http = require 'http'$/;"	v
+http	spec/install-spec.coffee	/^http = require 'http'$/;"	v
+http	spec/publish-spec.coffee	/^http = require 'http'$/;"	v
+http	spec/rebuild-spec.coffee	/^http = require 'http'$/;"	v
+http	spec/search-spec.coffee	/^http = require 'http'$/;"	v
+http	spec/stars-spec.coffee	/^http = require 'http'$/;"	v
+http	spec/unpublish-spec.coffee	/^http = require 'http'$/;"	v
+http	spec/upgrade-spec.coffee	/^http = require 'http'$/;"	v
+http	spec/view-spec.coffee	/^http = require 'http'$/;"	v
+icon-font-picker	deprecated-packages.json	/^  "icon-font-picker": {$/;"	f
+ide-flow	deprecated-packages.json	/^  "ide-flow": {$/;"	f
+ide-haskell	deprecated-packages.json	/^  "ide-haskell": {$/;"	f
+import	deprecated-packages.json	/^  "import": {$/;"	f
+inc-dec-value	deprecated-packages.json	/^  "inc-dec-value": {$/;"	f
+increment-number	deprecated-packages.json	/^  "increment-number": {$/;"	f
+indent-helper	deprecated-packages.json	/^  "indent-helper": {$/;"	f
+indentation-jumper	deprecated-packages.json	/^  "indentation-jumper": {$/;"	f
+initialize	spec/fixtures/r.tmbundle/Support/lib/historyList.rb	/^  def initialize(text)$/;"	f	class:HistoryList
+initialize	spec/fixtures/r.tmbundle/Support/lib/parsing.rb	/^  def initialize$/;"	f	class:Lexer
+inline-autocomplete	deprecated-packages.json	/^  "inline-autocomplete": {$/;"	f
+install	package.json	/^    "install": "node .\/script\/download-node.js",$/;"	f
+installCommands	src/upgrade.coffee	/^    installCommands = []$/;"	v
+installDependencies	src/develop.coffee	/^  installDependencies: (packageDirectory, options, callback = ->) ->$/;"	m
+installDependencies	src/install.coffee	/^  installDependencies: (options, callback) ->$/;"	m
+installGitPackage	src/install.coffee	/^  installGitPackage: (packageUrl, options, callback) ->$/;"	m
+installGitPackageDependencies	src/install.coffee	/^  installGitPackageDependencies: (directory, options, callback) =>$/;"	m
+installModule	src/install.coffee	/^  installModule: (options, pack, modulePath, callback) ->$/;"	m
+installModules	src/install.coffee	/^  installModules: (options, callback) =>$/;"	m
+installNode	src/dedupe.coffee	/^  installNode: (callback) ->$/;"	m
+installNode	src/install.coffee	/^  installNode: (callback) =>$/;"	m
+installNode	src/rebuild.coffee	/^  installNode: (callback) ->$/;"	m
+installOptions.callback	src/develop.coffee	/^    installOptions.callback = callback$/;"	v
+installOptions.streaming	src/install.coffee	/^    installOptions.streaming = true if @verbose$/;"	v
+installPackage	src/install.coffee	/^    installPackage = (name, nextInstallStep) =>$/;"	f
+installPackageDependencies	src/install.coffee	/^  installPackageDependencies: (options, callback) ->$/;"	m
+installPackages	src/stars.coffee	/^  installPackages: (packages, callback) ->$/;"	m
+installRegisteredPackage	src/install.coffee	/^  installRegisteredPackage: (metadata, options, callback) ->$/;"	m
+installUpdates	src/upgrade.coffee	/^  installUpdates: (updates, callback) ->$/;"	m
+installedModules	src/clean.coffee	/^    installedModules = fs.list(modulesPath).filter (modulePath) ->$/;"	f
+installedPackages	src/star.coffee	/^    installedPackages = []$/;"	v
+installedPackagesInfo	src/install.coffee	/^      installedPackagesInfo = installedPackagesInfo.filter (item, idx) ->$/;"	f
+interval	src/publish.coffee	/^    interval = 1000$/;"	v
+ionic-atom	deprecated-packages.json	/^  "ionic-atom": {$/;"	f
+isBundledPackage	src/install.coffee	/^  isBundledPackage: (packageName, callback) ->$/;"	m
+isDeprecatedPackage	src/deprecated-packages.coffee	/^exports.isDeprecatedPackage = (name, version) ->$/;"	f
+isPackageDisabled	src/list.coffee	/^  isPackageDisabled: (name) ->$/;"	m
+isPackageInstalled	src/install.coffee	/^  isPackageInstalled: (packageName, packageVersion) ->$/;"	m
+isValidRange	src/publish.coffee	/^    isValidRange = (semverRange) ->$/;"	f
+isWin32	src/apm.coffee	/^  isWin32: ->$/;"	m
+isWindows64Bit	src/apm.coffee	/^  isWindows64Bit: ->$/;"	m
+items	src/view.coffee	/^        items = []$/;"	v
+iteratee	src/install.coffee	/^    iteratee = (currentData, task, next) -> task(currentData, next)$/;"	f
+iteratee	src/install.coffee	/^    iteratee = (item, next) -> item(next)$/;"	f
+japanese-zen-han-convert	deprecated-packages.json	/^  "japanese-zen-han-convert": {$/;"	f
+jasmine-focused	package.json	/^    "jasmine-focused": ">=1.0.7 <2.0",$/;"	f
+jsdoc	deprecated-packages.json	/^  "jsdoc": {$/;"	f
+jsformat	deprecated-packages.json	/^  "jsformat": {$/;"	f
+jslint	deprecated-packages.json	/^  "jslint": {$/;"	f
+json	native-module/build/gyp-mac-tool	/^import json$/;"	i
+json	src/develop.coffee	/^      json: true$/;"	f
+json	src/featured.coffee	/^      json: true$/;"	f
+json	src/install.coffee	/^      json: true$/;"	f
+json	src/publish.coffee	/^          json: true$/;"	f
+json	src/publish.coffee	/^        json: true$/;"	f
+json	src/publish.coffee	/^      json: true$/;"	f
+json	src/search.coffee	/^      json: true$/;"	f
+json	src/star.coffee	/^      json: true$/;"	f
+json	src/uninstall.coffee	/^        json: true$/;"	f
+json	src/unpublish.coffee	/^        json: true$/;"	f
+json	src/unstar.coffee	/^      json: true$/;"	f
+json	src/upgrade.coffee	/^      json: true$/;"	f
+json	src/view.coffee	/^      json: true$/;"	f
+json.apmInstallSource.sha	spec/upgrade-spec.coffee	/^        json.apmInstallSource.sha = 'abcdef1234567890'$/;"	v
+jsonlint	deprecated-packages.json	/^  "jsonlint": {$/;"	f
+jsonpp	deprecated-packages.json	/^  "jsonpp": {$/;"	f
+keyPath	src/disable.coffee	/^      keyPath = '*.core.disabledPackages'$/;"	v
+keyPath	src/enable.coffee	/^    keyPath = '*.core.disabledPackages'$/;"	v
+keycodes	deprecated-packages.json	/^  "keycodes": {$/;"	f
+keytar	package.json	/^    "keytar": "^3.0",$/;"	f
+keytar	src/auth.coffee	/^    keytar =$/;"	v
+keytar	src/auth.coffee	/^  keytar = require 'keytar'$/;"	v
+keytar.findPassword	lib/auth.js	/^      keytar = {$/;"	m
+keytar.replacePassword	lib/auth.js	/^        findPassword: function() {},$/;"	m
+keywords	templates/bundle/package.json	/^  "keywords": [$/;"	f
+keywords	templates/language/package.json	/^  "keywords": [$/;"	f
+keywords	templates/package-coffeescript/package.json	/^  "keywords": [$/;"	f
+keywords	templates/package-javascript/package.json	/^  "keywords": [$/;"	f
+keywords	templates/theme/package.json	/^  "keywords": [$/;"	f
+kinetic	deprecated-packages.json	/^  "kinetic": {$/;"	f
+label	src/install.coffee	/^    label = packageName$/;"	v
+label	src/stars.coffee	/^      label = "Packages starred by #{userLabel}"$/;"	v
+label	src/stars.coffee	/^      label = "Themes starred by #{userLabel}"$/;"	v
+language-javascript-semantic	deprecated-packages.json	/^  "language-javascript-semantic": {$/;"	f
+language-jsoniq	deprecated-packages.json	/^  "language-jsoniq": {$/;"	f
+language-rspec	deprecated-packages.json	/^  "language-rspec": {$/;"	f
+language-typescript	deprecated-packages.json	/^  "language-typescript": {$/;"	f
+laravel-facades	deprecated-packages.json	/^  "laravel-facades": {$/;"	f
+last-cursor-position	deprecated-packages.json	/^  "last-cursor-position": {$/;"	f
+latest	spec/fixtures/atom-2048.json	/^    "latest": "1.2.3"$/;"	f
+latest	spec/fixtures/available.json	/^      "latest": "19.92"$/;"	f
+latest	spec/fixtures/available.json	/^      "latest": "2.0.0",$/;"	f
+latest	spec/fixtures/available.json	/^      "latest": "9.0.2.1.0"$/;"	f
+latest	spec/fixtures/install-multi-version.json	/^    "latest": "0.4.0"$/;"	f
+latest	spec/fixtures/install-test-module-with-bin.json	/^        "latest": "2.0.0"$/;"	f
+latest	spec/fixtures/install-test-module-with-symlink.json	/^        "latest": "5.0.0"$/;"	f
+latest	spec/fixtures/install-test-module.json	/^        "latest": "0.4.0"$/;"	f
+latest	spec/fixtures/install-test-module2.json	/^        "latest": "2.0.0"$/;"	f
+latest	spec/fixtures/packages.json	/^      "latest": "2.0.0",$/;"	f
+latest	spec/fixtures/packages.json	/^      "latest": "9.0.2.1.0"$/;"	f
+latest	spec/fixtures/search.json	/^      "latest": "1.0"$/;"	f
+latest	spec/fixtures/search.json	/^      "latest": "1.2.3"$/;"	f
+latest	spec/fixtures/search.json	/^      "latest": "19.92"$/;"	f
+latest	spec/fixtures/search.json	/^      "latest": "2.0"$/;"	f
+latest	spec/fixtures/stars.json	/^      "latest": "0.4.0"$/;"	f
+latest	spec/fixtures/themes.json	/^      "latest": "19.92"$/;"	f
+latest	spec/fixtures/wrap-guide.json	/^    "latest": "0.14.0"$/;"	f
+latestHasDeprecations	deprecated-packages.json	/^    "latestHasDeprecations": false$/;"	f
+latestHasDeprecations	deprecated-packages.json	/^    "latestHasDeprecations": true$/;"	f
+layout-manager	deprecated-packages.json	/^  "layout-manager": {$/;"	f
+left	coffeelint.json	/^      "left": 0,$/;"	f
+less-autocompile	deprecated-packages.json	/^  "less-autocompile": {$/;"	f
+letter-spacing	deprecated-packages.json	/^  "letter-spacing": {$/;"	f
+level	coffeelint.json	/^    "level": "error"$/;"	f
+level	coffeelint.json	/^    "level": "ignore"$/;"	f
+lex	spec/fixtures/r.tmbundle/Support/lib/parsing.rb	/^  def lex(data)$/;"	f	class:Lexer
+lex	spec/fixtures/r.tmbundle/Support/lib/parsing.rb	/^  def self.lex(str)$/;"	F	class:CommandParser
+license	package.json	/^  "license": "MIT",$/;"	f
+license	templates/bundle/package.json	/^  "license": "MIT",$/;"	f
+license	templates/language/package.json	/^  "license": "MIT",$/;"	f
+license	templates/package-coffeescript/package.json	/^  "license": "MIT",$/;"	f
+license	templates/package-javascript/package.json	/^  "license": "MIT",$/;"	f
+license	templates/theme/package.json	/^  "license": "MIT",$/;"	f
+line-count	deprecated-packages.json	/^  "line-count": {$/;"	f
+line-jumper	deprecated-packages.json	/^  "line-jumper": {$/;"	f
+lines	spec/list-spec.coffee	/^      lines = console.log.argsForCall.map((arr) -> arr.join(' '))$/;"	f
+lines	src/text-mate-theme.coffee	/^    lines = [$/;"	v
+linkOptions.callback	src/develop.coffee	/^      linkOptions.callback = callback$/;"	v
+linkPackage	src/develop.coffee	/^  linkPackage: (packageDirectory, options, callback) ->$/;"	m
+linkPath	src/link.coffee	/^    linkPath = path.resolve(process.cwd(), packagePath)$/;"	v
+linkPath	src/unlink.coffee	/^    linkPath = path.resolve(process.cwd(), packagePath)$/;"	v
+linter	deprecated-packages.json	/^  "linter": {$/;"	f
+linter-flow	deprecated-packages.json	/^  "linter-flow": {$/;"	f
+list	src/fs.coffee	/^  list: (directoryPath) ->$/;"	m
+listBundledPackages	src/list.coffee	/^  listBundledPackages: (options, callback) ->$/;"	m
+listCallback	src/featured.coffee	/^    listCallback = (error, packages) ->$/;"	f
+listDevPackages	src/list.coffee	/^  listDevPackages: (options, callback) ->$/;"	m
+listGitPackages	src/list.coffee	/^  listGitPackages: (options, callback) ->$/;"	m
+listInstalledPackages	src/list.coffee	/^  listInstalledPackages: (options) ->$/;"	m
+listPackages	spec/list-spec.coffee	/^listPackages = (args, doneCallback) ->$/;"	f
+listPackages	src/list.coffee	/^  listPackages: (directoryPath, options) ->$/;"	m
+listPackagesAsJson	src/list.coffee	/^  listPackagesAsJson: (options, callback = ->) ->$/;"	m
+listRecursive	src/fs.coffee	/^  listRecursive: (directoryPath) ->$/;"	m
+listUserPackages	src/list.coffee	/^  listUserPackages: (options, callback) ->$/;"	m
+livereload	deprecated-packages.json	/^  "livereload": {$/;"	f
+loadInstalledAtomMetadata	src/command.coffee	/^  loadInstalledAtomMetadata: (callback) ->$/;"	m
+loadInstalledAtomVersion	src/upgrade.coffee	/^  loadInstalledAtomVersion: (options, callback) ->$/;"	m
+loadInstalledAtomVersion	src/view.coffee	/^  loadInstalledAtomVersion: (options, callback) ->$/;"	m
+loadMetadata	src/publish.coffee	/^  loadMetadata: ->$/;"	m
+loadNpm	lib/request.js	/^  config = require('.\/apm');$/;"	f
+loadNpm	src/apm.coffee	/^  loadNpm: (callback) ->$/;"	m
+loadNpm	src/request.coffee	/^loadNpm = (callback) ->$/;"	f
+loadRepository	src/publish.coffee	/^  loadRepository: ->$/;"	m
+local-history	deprecated-packages.json	/^  "local-history": {$/;"	f
+local-server	deprecated-packages.json	/^  "local-server": {$/;"	f
+local-server-express	deprecated-packages.json	/^  "local-server-express": {$/;"	f
+local-settings	deprecated-packages.json	/^  "local-settings": {$/;"	f
+localization	deprecated-packages.json	/^  "localization": {$/;"	f
+log-console	deprecated-packages.json	/^  "log-console": {$/;"	f
+logCommandResults	src/command.coffee	/^  logCommandResults: (callback, code, stderr='', stdout='') =>$/;"	m
+logCommandResultsIfFail	src/command.coffee	/^  logCommandResultsIfFail: (callback, code, stderr='', stdout='') =>$/;"	m
+logFailure	src/command.coffee	/^  logFailure: ->$/;"	m
+logFilePath	src/test.coffee	/^      logFilePath = logFile.path$/;"	v
+logFirstTimePublishMessage	src/publish.coffee	/^  logFirstTimePublishMessage: (pack) ->$/;"	m
+logLinks	src/links.coffee	/^  logLinks: (directoryPath) ->$/;"	m
+logPackages	src/list.coffee	/^  logPackages: (packages, options) ->$/;"	m
+logPackagesAsJson	src/stars.coffee	/^  logPackagesAsJson: (packages, callback) ->$/;"	m
+logPackagesAsText	src/stars.coffee	/^  logPackagesAsText: (user, packagesAreThemes, packages, callback) ->$/;"	m
+logSuccess	src/command.coffee	/^  logSuccess: ->$/;"	m
+lorem-ipsum	deprecated-packages.json	/^  "lorem-ipsum": {$/;"	f
+magenta	src/apm-cli.coffee	/^        magenta: 'stripColors'$/;"	f
+main	native-module/build/gyp-mac-tool	/^def main(args):$/;"	f
+main	native-module/package.json	/^  "main": ".\/index.js"$/;"	f
+main	native-module/src/native.cc	/^int main() {$/;"	f
+main	package.json	/^  "main": ".\/lib\/apm.js",$/;"	f
+main	spec/fixtures/package-with-native-deps/package.json	/^  "main": ".\/index.js",$/;"	f
+main	spec/fixtures/test-module-three/package.json	/^  "main": ".\/index.js",$/;"	f
+main	spec/fixtures/test-module-two/package.json	/^  "main": ".\/index.js",$/;"	f
+main	spec/fixtures/test-module/package.json	/^  "main": ".\/index.js",$/;"	f
+main	spec/fixtures/wrap-guide.json	/^      "main": ".\/lib\/wrap-guide-view",$/;"	f
+main	spec/fixtures/wrap-guide.json	/^    "main": ".\/lib\/wrap-guide-view",$/;"	f
+main	templates/package-coffeescript/package.json	/^  "main": ".\/lib\/__package-name__",$/;"	f
+main	templates/package-javascript/package.json	/^  "main": ".\/lib\/__package-name__",$/;"	f
+manifest.name	src/list.coffee	/^      manifest.name = child$/;"	v
+mark-ring	deprecated-packages.json	/^  "mark-ring": {$/;"	f
+markdown-format	deprecated-packages.json	/^  "markdown-format": {$/;"	f
+markdown-helpers	deprecated-packages.json	/^  "markdown-helpers": {$/;"	f
+markdown-pdf	deprecated-packages.json	/^  "markdown-pdf": {$/;"	f
+markdown-preview-plus	deprecated-packages.json	/^  "markdown-preview-plus": {$/;"	f
+markdown-stream	deprecated-packages.json	/^  "markdown-stream": {$/;"	f
+markdown-writer	deprecated-packages.json	/^  "markdown-writer": {$/;"	f
+marked	deprecated-packages.json	/^  "marked": {$/;"	f
+match	templates/language/grammars/__package-name__.cson	/^    'match': '^\\\\s*@@.*$'$/;"	f
+mate-subword-navigation	deprecated-packages.json	/^  "mate-subword-navigation": {$/;"	f
+max-tabs	deprecated-packages.json	/^  "max-tabs": {$/;"	f
+max_line_length	coffeelint.json	/^  "max_line_length": {$/;"	f
+maximize-panes	deprecated-packages.json	/^  "maximize-panes": {$/;"	f
+mdurl	deprecated-packages.json	/^  "mdurl": {$/;"	f
+mechanical-keyboard	deprecated-packages.json	/^  "mechanical-keyboard": {$/;"	f
+message	deprecated-packages.json	/^    "message": "`autocomplete-plus-async` has been replaced by `autocomplete-plus` which is bundled in core",$/;"	f
+message	deprecated-packages.json	/^    "message": "`sublime-tabs` has been replaced by the 'Use Preview Tabs' option in the `tabs` package settings.",$/;"	f
+message	deprecated-packages.json	/^    "message": "`wrap-lines` has been replaced by a feature in core. Open the command palette and search for `autoflow`.",$/;"	f
+message	src/apm-cli.coffee	/^          message = error$/;"	v
+message	src/apm-cli.coffee	/^          message = error.message ? error$/;"	v
+message	src/install.coffee	/^              message = error.message ? error.error ? error$/;"	v
+message	src/install.coffee	/^    message = """$/;"	v
+message	src/unpublish.coffee	/^          message = body.message ? body.error ? body$/;"	v
+message	src/unstar.coffee	/^        message = body.message ? body.error ? body$/;"	v
+message	src/upgrade.coffee	/^        message = body.message ? body.error ? body$/;"	v
+message	src/view.coffee	/^        message = body.message ? body.error ? body$/;"	v
+metadata	spec/fixtures/available.json	/^    "metadata": {$/;"	f
+metadata	spec/fixtures/packages.json	/^    "metadata": {$/;"	f
+metadata	spec/fixtures/search.json	/^    "metadata": {$/;"	f
+metadata	spec/fixtures/stars.json	/^    "metadata": {$/;"	f
+metadata	spec/fixtures/themes.json	/^    "metadata": {$/;"	f
+metadata	spec/fixtures/wrap-guide.json	/^  "metadata": {$/;"	f
+metadata	spec/list-spec.coffee	/^        metadata:$/;"	f
+metadata	spec/publish-spec.coffee	/^    metadata =$/;"	v
+minifier	deprecated-packages.json	/^  "minifier": {$/;"	f
+minimap	deprecated-packages.json	/^  "minimap": {$/;"	f
+minimap-color-highlight	deprecated-packages.json	/^  "minimap-color-highlight": {$/;"	f
+minimap-git-diff	deprecated-packages.json	/^  "minimap-git-diff": {$/;"	f
+mocha	deprecated-packages.json	/^  "mocha": {$/;"	f
+mocha-ui	deprecated-packages.json	/^  "mocha-ui": {$/;"	f
+module.exports	lib/tree.js	/^  _ = require('underscore-plus');$/;"	f
+module.exports	src/apm-cli.coffee	/^module.exports =$/;"	v
+module.exports	src/apm.coffee	/^module.exports =$/;"	v
+module.exports	src/auth.coffee	/^module.exports =$/;"	v
+module.exports	src/clean.coffee	/^module.exports =$/;"	v
+module.exports	src/command.coffee	/^module.exports =$/;"	v
+module.exports	src/config.coffee	/^module.exports =$/;"	v
+module.exports	src/dedupe.coffee	/^module.exports =$/;"	v
+module.exports	src/develop.coffee	/^module.exports =$/;"	v
+module.exports	src/disable.coffee	/^module.exports =$/;"	v
+module.exports	src/docs.coffee	/^module.exports =$/;"	v
+module.exports	src/enable.coffee	/^module.exports =$/;"	v
+module.exports	src/featured.coffee	/^module.exports =$/;"	v
+module.exports	src/init.coffee	/^module.exports =$/;"	v
+module.exports	src/install.coffee	/^module.exports =$/;"	v
+module.exports	src/link.coffee	/^module.exports =$/;"	v
+module.exports	src/links.coffee	/^module.exports =$/;"	v
+module.exports	src/list.coffee	/^module.exports =$/;"	v
+module.exports	src/login.coffee	/^module.exports =$/;"	v
+module.exports	src/package-converter.coffee	/^module.exports =$/;"	v
+module.exports	src/packages.coffee	/^module.exports =$/;"	v
+module.exports	src/publish.coffee	/^module.exports =$/;"	v
+module.exports	src/rebuild-module-cache.coffee	/^module.exports =$/;"	v
+module.exports	src/rebuild.coffee	/^module.exports =$/;"	v
+module.exports	src/request.coffee	/^module.exports =$/;"	v
+module.exports	src/search.coffee	/^module.exports =$/;"	v
+module.exports	src/star.coffee	/^module.exports =$/;"	v
+module.exports	src/stars.coffee	/^module.exports =$/;"	v
+module.exports	src/test.coffee	/^module.exports =$/;"	v
+module.exports	src/text-mate-theme.coffee	/^module.exports =$/;"	v
+module.exports	src/theme-converter.coffee	/^module.exports =$/;"	v
+module.exports	src/uninstall.coffee	/^module.exports =$/;"	v
+module.exports	src/unlink.coffee	/^module.exports =$/;"	v
+module.exports	src/unpublish.coffee	/^module.exports =$/;"	v
+module.exports	src/unstar.coffee	/^module.exports =$/;"	v
+module.exports	src/upgrade.coffee	/^module.exports =$/;"	v
+module.exports	src/view.coffee	/^module.exports =$/;"	v
+module.exports.createReadStream	lib/request.js	/^    },$/;"	m
+module.exports.debug	lib/request.js	/^    },$/;"	m
+module.exports.del	lib/request.js	/^    },$/;"	m
+module.exports.get	lib/request.js	/^  module.exports = {$/;"	m
+module.exports.getAtomApiUrl	lib/apm.js	/^    },$/;"	m
+module.exports.getAtomDirectory	lib/apm.js	/^    },$/;"	m
+module.exports.getAtomPackagesUrl	lib/apm.js	/^    },$/;"	m
+module.exports.getCacheDirectory	lib/apm.js	/^    },$/;"	m
+module.exports.getElectronArch	lib/apm.js	/^    },$/;"	m
+module.exports.getElectronUrl	lib/apm.js	/^    },$/;"	m
+module.exports.getErrorMessage	lib/request.js	/^    },$/;"	m
+module.exports.getGlobalConfigPath	lib/apm.js	/^    },$/;"	m
+module.exports.getHomeDirectory	lib/apm.js	/^  module.exports = {$/;"	m
+module.exports.getInstalledVisualStudioFlag	lib/apm.js	/^    },$/;"	m
+module.exports.getReposDirectory	lib/apm.js	/^    },$/;"	m
+module.exports.getRepository	lib/packages.js	/^  module.exports = {$/;"	m
+module.exports.getResourcePath	lib/apm.js	/^    },$/;"	m
+module.exports.getSetting	lib/apm.js	/^    },$/;"	m
+module.exports.getToken	lib/auth.js	/^  module.exports = {$/;"	m
+module.exports.getUserConfigPath	lib/apm.js	/^    },$/;"	m
+module.exports.isWin32	lib/apm.js	/^    },$/;"	m
+module.exports.isWindows64Bit	lib/apm.js	/^    },$/;"	m
+module.exports.loadNpm	lib/apm.js	/^    },$/;"	m
+module.exports.post	lib/request.js	/^    },$/;"	m
+module.exports.run	lib/apm-cli.js	/^  module.exports = {$/;"	m
+module.exports.saveToken	lib/auth.js	/^    },$/;"	m
+module.exports.setupApmRcFile	lib/apm.js	/^    },$/;"	m
+module.exports.x86ProgramFilesDirectory	lib/apm.js	/^    },$/;"	m
+modulesToRemove	src/clean.coffee	/^    modulesToRemove = []$/;"	v
+move_down	spec/fixtures/r.tmbundle/Support/lib/historyList.rb	/^  def move_down$/;"	f	class:HistoryList
+move_down	spec/fixtures/r.tmbundle/Support/lib/historyList.rb	/^  def self.move_down(text)$/;"	F	class:HistoryList
+move_up	spec/fixtures/r.tmbundle/Support/lib/historyList.rb	/^  def move_up$/;"	f	class:HistoryList
+move_up	spec/fixtures/r.tmbundle/Support/lib/historyList.rb	/^  def self.move_up(text)$/;"	F	class:HistoryList
+mv	package.json	/^    "mv": "2.0.0",$/;"	f
+my_popen3	spec/fixtures/r.tmbundle/Support/tmR.rb	/^def my_popen3(*cmd) # returns [stdin, stdout, strerr, pid]$/;"	f
+name	native-module/package.json	/^  "name": "module-with-native-code",$/;"	f
+name	package.json	/^  "name": "atom-package-manager",$/;"	f
+name	spec/fixtures/atom-2048.json	/^  "name": "atom-2048",$/;"	f
+name	spec/fixtures/available.json	/^      "name": "beverly-hills",$/;"	f
+name	spec/fixtures/available.json	/^      "name": "duckblur",$/;"	f
+name	spec/fixtures/available.json	/^      "name": "multi-version",$/;"	f
+name	spec/fixtures/available.json	/^    "name": "beverly-hills",$/;"	f
+name	spec/fixtures/available.json	/^    "name": "duckblur",$/;"	f
+name	spec/fixtures/available.json	/^    "name": "multi-version",$/;"	f
+name	spec/fixtures/install-multi-version.json	/^  "name": "multi-module",$/;"	f
+name	spec/fixtures/install-test-module-with-bin.json	/^    "name": "test-module-with-bin",$/;"	f
+name	spec/fixtures/install-test-module-with-symlink.json	/^    "name": "test-module-with-symlink",$/;"	f
+name	spec/fixtures/install-test-module.json	/^    "name": "test-module",$/;"	f
+name	spec/fixtures/install-test-module2.json	/^    "name": "test-module",$/;"	f
+name	spec/fixtures/package-with-native-deps/package.json	/^  "name": "test-module",$/;"	f
+name	spec/fixtures/packages.json	/^      "name": "beverly-hills",$/;"	f
+name	spec/fixtures/packages.json	/^      "name": "multi-version",$/;"	f
+name	spec/fixtures/packages.json	/^    "name": "beverly-hills",$/;"	f
+name	spec/fixtures/packages.json	/^    "name": "multi-version",$/;"	f
+name	spec/fixtures/search.json	/^      "name": "atom-2048",$/;"	f
+name	spec/fixtures/search.json	/^      "name": "duckberg",$/;"	f
+name	spec/fixtures/search.json	/^      "name": "duckblur",$/;"	f
+name	spec/fixtures/search.json	/^      "name": "ducktales",$/;"	f
+name	spec/fixtures/search.json	/^    "name": "atom-2048",$/;"	f
+name	spec/fixtures/search.json	/^    "name": "duckberg",$/;"	f
+name	spec/fixtures/search.json	/^    "name": "duckblur",$/;"	f
+name	spec/fixtures/search.json	/^    "name": "ducktales",$/;"	f
+name	spec/fixtures/stars.json	/^      "name": "test-module",$/;"	f
+name	spec/fixtures/stars.json	/^    "name": "test-module",$/;"	f
+name	spec/fixtures/test-module-three/package.json	/^  "name": "test-module-three",$/;"	f
+name	spec/fixtures/test-module-two/package.json	/^  "name": "test-module-two",$/;"	f
+name	spec/fixtures/test-module-with-dependencies/package.json	/^  "name": "test-module-with-dependencies",$/;"	f
+name	spec/fixtures/test-module/package.json	/^  "name": "test-module",$/;"	f
+name	spec/fixtures/themes.json	/^      "name": "duckblur",$/;"	f
+name	spec/fixtures/themes.json	/^    "name": "duckblur",$/;"	f
+name	spec/fixtures/wrap-guide.json	/^      "name": "wrap-guide",$/;"	f
+name	spec/fixtures/wrap-guide.json	/^    "name": "wrap-guide",$/;"	f
+name	spec/fixtures/wrap-guide.json	/^  "name": "wrap-guide",$/;"	f
+name	spec/publish-spec.coffee	/^      name: 'test'$/;"	f
+name	templates/bundle/package.json	/^  "name": "__package-name__",$/;"	f
+name	templates/language/grammars/__package-name__.cson	/^    'name': 'comment'$/;"	f
+name	templates/language/grammars/__package-name__.cson	/^'name': 'PackageName'$/;"	f
+name	templates/language/package.json	/^  "name": "language-__package-name__",$/;"	f
+name	templates/package-coffeescript/package.json	/^  "name": "__package-name__",$/;"	f
+name	templates/package-javascript/package.json	/^  "name": "__package-name__",$/;"	f
+name	templates/theme/package.json	/^  "name": "__package-name__",$/;"	f
+native-dep	spec/fixtures/package-with-native-deps/package.json	/^    "native-dep": ".\/node_modules\/native-dep"$/;"	f
+ncp	package.json	/^    "ncp": "~0.5.1",$/;"	f
+next_item	spec/fixtures/r.tmbundle/Support/lib/historyList.rb	/^  def next_item(command)$/;"	f	class:HistoryList
+no_debugger	coffeelint.json	/^  "no_debugger": {$/;"	f
+no_empty_param_list	coffeelint.json	/^  "no_empty_param_list": {$/;"	f
+no_interpolation_in_single_quotes	coffeelint.json	/^  "no_interpolation_in_single_quotes": {$/;"	f
+no_stand_alone_at	coffeelint.json	/^  "no_stand_alone_at": {$/;"	f
+node-debugger	deprecated-packages.json	/^  "node-debugger": {$/;"	f
+normalizeFilenames	src/package-converter.coffee	/^  normalizeFilenames: (directoryPath) ->$/;"	m
+normalizeVersion	src/command.coffee	/^  normalizeVersion: (version) ->$/;"	m
+npm	package.json	/^    "npm": "2.13.3",$/;"	f
+npm-autocomplete	deprecated-packages.json	/^  "npm-autocomplete": {$/;"	f
+npmOptions	src/apm-cli.coffee	/^  npmOptions =$/;"	v
+npmOptions	src/apm.coffee	/^    npmOptions =$/;"	v
+npmOptions	src/git.coffee	/^  npmOptions =$/;"	v
+npmOptions	src/request.coffee	/^  npmOptions =$/;"	v
+obj	native-module/build/Makefile	/^obj := $(builddir)\/obj$/;"	m
+omni-ruler	deprecated-packages.json	/^  "omni-ruler": {$/;"	f
+omnisharp-atom	deprecated-packages.json	/^  "omnisharp-atom": {$/;"	f
+on	spec/test-spec.coffee	/^          on: ->$/;"	m
+on	spec/test-spec.coffee	/^        on: ->$/;"	m
+on	spec/test-spec.coffee	/^      on: ->$/;"	m
+onChildExit	src/command.coffee	/^    onChildExit = (errorOrExitCode) ->$/;"	f
+onDirectory	src/install.coffee	/^        onDirectory = (directoryPath) ->$/;"	f
+onFile	src/install.coffee	/^        onFile = (filePath) =>$/;"	f
+open	package.json	/^    "open": "0.0.4",$/;"	f
+open-git-modified-files	deprecated-packages.json	/^  "open-git-modified-files": {$/;"	f
+open-in-github-app	deprecated-packages.json	/^  "open-in-github-app": {$/;"	f
+open-in-gitx	deprecated-packages.json	/^  "open-in-gitx": {$/;"	f
+open-in-sourcetree	deprecated-packages.json	/^  "open-in-sourcetree": {$/;"	f
+open-last-project	deprecated-packages.json	/^  "open-last-project": {$/;"	f
+open-recent	deprecated-packages.json	/^  "open-recent": {$/;"	f
+openRepositoryUrl	src/docs.coffee	/^  openRepositoryUrl: (repositoryUrl) ->$/;"	m
+openURL	src/login.coffee	/^  openURL: (state) ->$/;"	m
+options	Gruntfile.coffee	/^        options:$/;"	f
+options	Gruntfile.coffee	/^      options:$/;"	f
+options	src/apm-cli.coffee	/^  options = yargs(args).wrap(100)$/;"	v
+options	src/clean.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/config.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/dedupe.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/develop.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/disable.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/disable.coffee	/^    options =$/;"	v
+options	src/docs.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/enable.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/featured.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/init.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/install.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/link.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/links.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/list.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/login.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/publish.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/rebuild-module-cache.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/rebuild.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/search.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/star.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/stars.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/test.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/tree.coffee	/^    options = {}$/;"	v
+options	src/uninstall.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/unlink.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/unpublish.coffee	/^      options =$/;"	v
+options	src/unpublish.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/unstar.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/upgrade.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options	src/view.coffee	/^    options = yargs(argv).wrap(100)$/;"	v
+options.callback	lib/apm-cli.js	/^      callbackCalled = false;$/;"	f
+options.callback	src/apm-cli.coffee	/^    options.callback = (error) ->$/;"	f
+options.cwd	src/dedupe.coffee	/^    options.cwd = cwd$/;"	v
+options.cwd	src/install.coffee	/^    options.cwd = directory$/;"	v
+options.installGlobally	src/install.coffee	/^    options.installGlobally = false$/;"	v
+opts.streaming	src/install.coffee	/^    opts.streaming = true if @verbose$/;"	v
+os	native-module/build/gyp-mac-tool	/^import os$/;"	i
+other	spec/fixtures/available.json	/^      "other": "1.0.0"$/;"	f
+other	spec/fixtures/packages.json	/^      "other": "1.0.0"$/;"	f
+output	src/list.coffee	/^    output =$/;"	v
+output.core	src/list.coffee	/^      output.core = packages$/;"	v
+output.dev	src/list.coffee	/^        output.dev = packages$/;"	v
+output.git	src/list.coffee	/^            output.git = packages$/;"	v
+output.user	src/list.coffee	/^          output.user = packages$/;"	v
+outputChunks	src/apm-cli.coffee	/^    outputChunks = []$/;"	v
+outputChunks	src/command.coffee	/^    outputChunks = []$/;"	v
+outputChunks	src/git.coffee	/^    outputChunks = []$/;"	v
+pack	src/publish.coffee	/^      pack = @loadMetadata()$/;"	v
+pack.latestSha	src/upgrade.coffee	/^          pack.latestSha = sha if sha$/;"	v
+package-cop	deprecated-packages.json	/^  "package-cop": {$/;"	f
+package-list-downloader	deprecated-packages.json	/^  "package-list-downloader": {$/;"	f
+packageDirectory	src/develop.coffee	/^    packageDirectory = path.resolve(packageDirectory)$/;"	v
+packageExists	src/publish.coffee	/^  packageExists: (packageName, callback) ->$/;"	m
+packageLabel	src/unpublish.coffee	/^    packageLabel = packageName$/;"	v
+packageName	src/init.coffee	/^          packageName = packageName[0].toLowerCase() + packageName[1...]$/;"	v
+packageName	src/init.coffee	/^          packageName = packageName[0].toUpperCase() + packageName[1...]$/;"	v
+packageNames	src/command.coffee	/^    packageNames = packageNames.map (packageName) -> packageName.trim()$/;"	f
+packageNames	src/install.coffee	/^        packageNames = @packageNamesFromPath(packagesFilePath)$/;"	v
+packageNamesFromArgv	src/command.coffee	/^  packageNamesFromArgv: (argv) ->$/;"	m
+packageNamesFromPath	src/install.coffee	/^  packageNamesFromPath: (filePath) ->$/;"	m
+packagePath	src/clean.coffee	/^    packagePath = CSON.resolve('package')$/;"	v
+packagePath	src/test.coffee	/^    packagePath = process.cwd()$/;"	v
+packages	src/featured.coffee	/^        packages = body.filter (pack) -> pack?.releases?.latest?$/;"	f
+packages	src/featured.coffee	/^        packages = packages.map ({readme, metadata, downloads, stargazers_count}) -> _.extend({}, metadata, {readme, downloads, stargazers_count})$/;"	f
+packages	src/list.coffee	/^      packages = (metadata for packageName, {metadata} of _atomPackages)$/;"	v
+packages	src/list.coffee	/^      packages = packages.filter (metadata) ->$/;"	f
+packages	src/list.coffee	/^    packages = []$/;"	v
+packages	src/search.coffee	/^        packages = body.filter (pack) -> pack.releases?.latest?$/;"	f
+packages	src/search.coffee	/^        packages = packages.filter ({name, version}) -> not isDeprecatedPackage(name, version)$/;"	f
+packages	src/search.coffee	/^        packages = packages.map ({readme, metadata, downloads, stargazers_count}) -> _.extend({}, metadata, {readme, downloads, stargazers_count})$/;"	f
+packages	src/stars.coffee	/^        packages = body.filter (pack) -> pack?.releases?.latest?$/;"	f
+packages	src/stars.coffee	/^        packages = packages.filter ({theme}) -> theme$/;"	f
+packages	src/stars.coffee	/^        packages = packages.map ({readme, metadata, downloads, stargazers_count}) -> _.extend({}, metadata, {readme, downloads, stargazers_count})$/;"	f
+packages	src/upgrade.coffee	/^      packages = packages.filter ({name}) -> packageNames.indexOf(name) isnt -1$/;"	f
+packages	src/upgrade.coffee	/^    packages = []$/;"	v
+packagesFolder	spec/list-spec.coffee	/^  packagesFolder = switch type$/;"	v
+packagesWithLatestVersionOrSha	src/upgrade.coffee	/^        packagesWithLatestVersionOrSha = updates.map ({pack, latestVersion, sha}) ->$/;"	f
+pair-programming	deprecated-packages.json	/^  "pair-programming": {$/;"	f
+pane-layout-switcher	deprecated-packages.json	/^  "pane-layout-switcher": {$/;"	f
+paredit	deprecated-packages.json	/^  "paredit": {$/;"	f
+parse	spec/fixtures/r.tmbundle/Support/lib/parsing.rb	/^  def self.parse(data)$/;"	F	class:CommandParser
+parseHexColor	src/text-mate-theme.coffee	/^  parseHexColor: (color) ->$/;"	m
+parseOptions	lib/apm-cli.js	/^  }$/;"	f
+parseOptions	src/apm-cli.coffee	/^parseOptions = (args=[]) ->$/;"	f
+parseOptions	src/clean.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/config.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/dedupe.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/develop.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/disable.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/docs.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/enable.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/featured.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/init.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/install.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/link.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/links.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/list.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/login.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/publish.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/rebuild-module-cache.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/rebuild.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/search.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/star.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/stars.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/test.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/uninstall.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/unlink.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/unpublish.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/unstar.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/upgrade.coffee	/^  parseOptions: (argv) ->$/;"	m
+parseOptions	src/view.coffee	/^  parseOptions: (argv) ->$/;"	m
+party-hard	deprecated-packages.json	/^  "party-hard": {$/;"	f
+path	deprecated-packages.json	/^  "path": {$/;"	f
+path	spec/clean-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/config-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/develop-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/disable-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/docs-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/enable-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/featured-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/init-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/install-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/link-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/list-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/publish-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/rebuild-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/search-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/stars-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/test-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/uninstall-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/upgrade-spec.coffee	/^path = require 'path'$/;"	v
+path	spec/view-spec.coffee	/^path = require 'path'$/;"	v
+path	src/apm-cli.coffee	/^path = require 'path'$/;"	v
+path	src/apm.coffee	/^path = require 'path'$/;"	v
+path	src/clean.coffee	/^path = require 'path'$/;"	v
+path	src/command.coffee	/^path = require 'path'$/;"	v
+path	src/config.coffee	/^path = require 'path'$/;"	v
+path	src/dedupe.coffee	/^path = require 'path'$/;"	v
+path	src/develop.coffee	/^path = require 'path'$/;"	v
+path	src/disable.coffee	/^path = require 'path'$/;"	v
+path	src/enable.coffee	/^path = require 'path'$/;"	v
+path	src/git.coffee	/^path = require 'path'$/;"	v
+path	src/init.coffee	/^path = require 'path'$/;"	v
+path	src/install.coffee	/^path = require 'path'$/;"	v
+path	src/link.coffee	/^path = require 'path'$/;"	v
+path	src/links.coffee	/^path = require 'path'$/;"	v
+path	src/list.coffee	/^path = require 'path'$/;"	v
+path	src/package-converter.coffee	/^path = require 'path'$/;"	v
+path	src/publish.coffee	/^path = require 'path'$/;"	v
+path	src/rebuild-module-cache.coffee	/^path = require 'path'$/;"	v
+path	src/rebuild.coffee	/^path = require 'path'$/;"	v
+path	src/star.coffee	/^path = require 'path'$/;"	v
+path	src/test.coffee	/^path = require 'path'$/;"	v
+path	src/theme-converter.coffee	/^path = require 'path'$/;"	v
+path	src/uninstall.coffee	/^path = require 'path'$/;"	v
+path	src/unlink.coffee	/^path = require 'path'$/;"	v
+path	src/unpublish.coffee	/^path = require 'path'$/;"	v
+path	src/upgrade.coffee	/^path = require 'path'$/;"	v
+patterns	templates/language/grammars/__package-name__.cson	/^'patterns': [$/;"	f
+pep8	deprecated-packages.json	/^  "pep8": {$/;"	f
+pepper-autocomplete	deprecated-packages.json	/^  "pepper-autocomplete": {$/;"	f
+permute	deprecated-packages.json	/^  "permute": {$/;"	f
+php-documentation-online	deprecated-packages.json	/^  "php-documentation-online": {$/;"	f
+php-getters-setters	deprecated-packages.json	/^  "php-getters-setters": {$/;"	f
+php-server	deprecated-packages.json	/^  "php-server": {$/;"	f
+phpunit	deprecated-packages.json	/^  "phpunit": {$/;"	f
+playlist	deprecated-packages.json	/^  "playlist": {$/;"	f
+plist	package.json	/^    "plist": "git+https:\/\/github.com\/nathansobo\/node-plist.git",$/;"	f
+plist	src/package-converter.coffee	/^plist = require 'plist'$/;"	v
+plist	src/text-mate-theme.coffee	/^plist = require 'plist'$/;"	v
+plistExtensions	src/package-converter.coffee	/^    @plistExtensions = [$/;"	f
+plistlib	native-module/build/gyp-mac-tool	/^import plistlib$/;"	i
+popen3	spec/fixtures/r.tmbundle/Support/lib/popen3.rb	/^def popen3(*args)$/;"	f
+post	src/request.coffee	/^  post: (requestOptions, callback) ->$/;"	m
+prefer_english_operator	coffeelint.json	/^  "prefer_english_operator": {$/;"	f
+preferencesBySelector	src/package-converter.coffee	/^    preferencesBySelector = {}$/;"	v
+prefix	spec/init-spec.coffee	/^          prefix: 'att'$/;"	f
+prefix	templates/language/snippets/language-__package-name__.cson	/^    'prefix': 'doc'$/;"	f
+prepublish	package.json	/^    "prepublish": "grunt prepublish",$/;"	f
+prereq_changed	native-module/build/Makefile	/^prereq_changed = $(filter-out FORCE_DO_CMD,$(filter-out $|,$?))$/;"	m
+pretty-json	deprecated-packages.json	/^  "pretty-json": {$/;"	f
+preview	deprecated-packages.json	/^  "preview": {$/;"	f
+preview-plus	deprecated-packages.json	/^  "preview-plus": {$/;"	f
+previous_item	spec/fixtures/r.tmbundle/Support/lib/historyList.rb	/^  def previous_item(command)$/;"	f	class:HistoryList
+printVersions	lib/apm-cli.js	/^  };$/;"	f
+printVersions	src/apm-cli.coffee	/^printVersions = (args, callback) ->$/;"	f
+process.env.ATOM_API_URL	spec/featured-spec.coffee	/^    process.env.ATOM_API_URL = "http:\/\/localhost:3000"$/;"	v
+process.env.ATOM_API_URL	spec/publish-spec.coffee	/^    process.env.ATOM_API_URL = "http:\/\/localhost:3000\/api"$/;"	v
+process.env.ATOM_API_URL	spec/stars-spec.coffee	/^    process.env.ATOM_API_URL = "http:\/\/localhost:3000"$/;"	v
+process.env.ATOM_API_URL	spec/uninstall-spec.coffee	/^    process.env.ATOM_API_URL = 'http:\/\/localhost:5432'$/;"	v
+process.env.ATOM_API_URL	spec/unpublish-spec.coffee	/^    process.env.ATOM_API_URL = "http:\/\/localhost:3000"$/;"	v
+process.env.ATOM_ELECTRON_VERSION	spec/clean-spec.coffee	/^    process.env.ATOM_ELECTRON_VERSION = 'v0.10.3'$/;"	v
+process.env.ATOM_ELECTRON_VERSION	spec/install-spec.coffee	/^      process.env.ATOM_ELECTRON_VERSION = 'v0.10.3'$/;"	v
+process.env.ATOM_ELECTRON_VERSION	spec/rebuild-spec.coffee	/^    process.env.ATOM_ELECTRON_VERSION = 'v0.10.3'$/;"	v
+process.env.ATOM_ELECTRON_VERSION	spec/stars-spec.coffee	/^    process.env.ATOM_ELECTRON_VERSION = 'v0.10.3'$/;"	v
+process.env.ATOM_ELECTRON_VERSION	spec/upgrade-spec.coffee	/^    process.env.ATOM_ELECTRON_VERSION = 'v0.10.3'$/;"	v
+process.env.ATOM_HOME	spec/clean-spec.coffee	/^    process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_HOME	spec/config-spec.coffee	/^    process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_HOME	spec/develop-spec.coffee	/^    process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_HOME	spec/disable-spec.coffee	/^    process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_HOME	spec/enable-spec.coffee	/^    process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_HOME	spec/install-spec.coffee	/^        process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_HOME	spec/install-spec.coffee	/^      process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_HOME	spec/install-spec.coffee	/^    process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_HOME	spec/link-spec.coffee	/^      process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_HOME	spec/list-spec.coffee	/^    process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_HOME	spec/publish-spec.coffee	/^    process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_HOME	spec/rebuild-spec.coffee	/^    process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_HOME	spec/stars-spec.coffee	/^    process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_HOME	spec/uninstall-spec.coffee	/^        process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_HOME	spec/uninstall-spec.coffee	/^      process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_HOME	spec/upgrade-spec.coffee	/^    process.env.ATOM_HOME = atomHome$/;"	v
+process.env.ATOM_PACKAGES_URL	spec/docs-spec.coffee	/^    process.env.ATOM_PACKAGES_URL = "http:\/\/localhost:3000"$/;"	v
+process.env.ATOM_PACKAGES_URL	spec/install-spec.coffee	/^      process.env.ATOM_PACKAGES_URL = "http:\/\/localhost:3000\/packages"$/;"	v
+process.env.ATOM_PACKAGES_URL	spec/rebuild-spec.coffee	/^    process.env.ATOM_PACKAGES_URL = "http:\/\/localhost:3000\/packages"$/;"	v
+process.env.ATOM_PACKAGES_URL	spec/search-spec.coffee	/^    process.env.ATOM_PACKAGES_URL = "http:\/\/localhost:3000"$/;"	v
+process.env.ATOM_PACKAGES_URL	spec/stars-spec.coffee	/^    process.env.ATOM_PACKAGES_URL = "http:\/\/localhost:3000\/packages"$/;"	v
+process.env.ATOM_PACKAGES_URL	spec/upgrade-spec.coffee	/^    process.env.ATOM_PACKAGES_URL = "http:\/\/localhost:3000\/packages"$/;"	v
+process.env.ATOM_PACKAGES_URL	spec/view-spec.coffee	/^    process.env.ATOM_PACKAGES_URL = "http:\/\/localhost:3000"$/;"	v
+process.env.ATOM_REPOS_HOME	spec/develop-spec.coffee	/^    process.env.ATOM_REPOS_HOME = atomReposHome$/;"	v
+process.env.ATOM_RESOURCE_PATH	spec/install-spec.coffee	/^    process.env.ATOM_RESOURCE_PATH = resourcePath$/;"	v
+process.env.ATOM_RESOURCE_PATH	spec/list-spec.coffee	/^    process.env.ATOM_RESOURCE_PATH = resourcePath$/;"	v
+process.env.ATOM_RESOURCE_PATH	spec/upgrade-spec.coffee	/^    process.env.ATOM_RESOURCE_PATH = atomApp$/;"	v
+process.env.GITHUB_USER	spec/init-spec.coffee	/^    process.env.GITHUB_USER = 'somebody'$/;"	v
+process.env.NODE_DEBUG	src/install.coffee	/^      process.env.NODE_DEBUG = 'request'$/;"	v
+process.env.NODE_DEBUG	src/upgrade.coffee	/^      process.env.NODE_DEBUG = 'request'$/;"	v
+process.env.PATH	spec/rebuild-spec.coffee	/^    process.env.PATH = ""$/;"	v
+process.title	src/cli.coffee	/^process.title = 'apm'$/;"	v
+project-colorize	deprecated-packages.json	/^  "project-colorize": {$/;"	f
+project-manager	deprecated-packages.json	/^  "project-manager": {$/;"	f
+project-palette-finder	deprecated-packages.json	/^  "project-palette-finder": {$/;"	f
+project-ring	deprecated-packages.json	/^  "project-ring": {$/;"	f
+prompt	src/login.coffee	/^  prompt: (options) ->$/;"	m
+promptForConfirmation	src/unpublish.coffee	/^  promptForConfirmation: (packageName, packageVersion, callback) ->$/;"	m
+promptForConfirmation	src/upgrade.coffee	/^  promptForConfirmation: (callback) ->$/;"	m
+properties	src/text-mate-theme.coffee	/^      properties:$/;"	f
+properties	src/text-mate-theme.coffee	/^    properties = {}$/;"	v
+publishPackage	src/publish.coffee	/^  publishPackage: (pack, tag, remaining...) ->$/;"	m
+pushVersion	src/publish.coffee	/^  pushVersion: (tag, callback) ->$/;"	m
+python	deprecated-packages.json	/^  "python": {$/;"	f
+python-coverage	deprecated-packages.json	/^  "python-coverage": {$/;"	f
+python-isort	deprecated-packages.json	/^  "python-isort": {$/;"	f
+python-jedi	deprecated-packages.json	/^  "python-jedi": {$/;"	f
+q	package.json	/^    "q": "~0.9.7",$/;"	f
+q	src/search.coffee	/^      q: query$/;"	f
+qs	src/search.coffee	/^      qs: qs$/;"	f
+qs	src/search.coffee	/^    qs =$/;"	v
+qs.filter	src/search.coffee	/^      qs.filter = 'package'$/;"	v
+qs.filter	src/search.coffee	/^      qs.filter = 'theme'$/;"	v
+quick-move-file	deprecated-packages.json	/^  "quick-move-file": {$/;"	f
+quiet	native-module/build/Makefile	/^  quiet=$/;"	m
+quiet	native-module/build/Makefile	/^  quiet=quiet_$/;"	m
+quiet_cmd_alink	native-module/build/Makefile	/^quiet_cmd_alink = LIBTOOL-STATIC $@$/;"	m
+quiet_cmd_cc	native-module/build/Makefile	/^quiet_cmd_cc = CC($(TOOLSET)) $@$/;"	m
+quiet_cmd_copy	native-module/build/Makefile	/^quiet_cmd_copy = COPY $@$/;"	m
+quiet_cmd_cxx	native-module/build/Makefile	/^quiet_cmd_cxx = CXX($(TOOLSET)) $@$/;"	m
+quiet_cmd_infoplist	native-module/build/Makefile	/^quiet_cmd_infoplist = INFOPLIST $@$/;"	m
+quiet_cmd_link	native-module/build/Makefile	/^quiet_cmd_link = LINK($(TOOLSET)) $@$/;"	m
+quiet_cmd_mac_package_framework	native-module/build/Makefile	/^quiet_cmd_mac_package_framework = PACKAGE FRAMEWORK $@$/;"	m
+quiet_cmd_mac_tool	native-module/build/Makefile	/^quiet_cmd_mac_tool = MACTOOL $(4) $<$/;"	m
+quiet_cmd_objc	native-module/build/Makefile	/^quiet_cmd_objc = CXX($(TOOLSET)) $@$/;"	m
+quiet_cmd_objcxx	native-module/build/Makefile	/^quiet_cmd_objcxx = CXX($(TOOLSET)) $@$/;"	m
+quiet_cmd_pch_c	native-module/build/Makefile	/^quiet_cmd_pch_c = CXX($(TOOLSET)) $@$/;"	m
+quiet_cmd_pch_cc	native-module/build/Makefile	/^quiet_cmd_pch_cc = CXX($(TOOLSET)) $@$/;"	m
+quiet_cmd_pch_m	native-module/build/Makefile	/^quiet_cmd_pch_m = CXX($(TOOLSET)) $@$/;"	m
+quiet_cmd_pch_mm	native-module/build/Makefile	/^quiet_cmd_pch_mm = CXX($(TOOLSET)) $@$/;"	m
+quiet_cmd_regen_makefile	native-module/build/Makefile	/^quiet_cmd_regen_makefile = ACTION Regenerating $@$/;"	m
+quiet_cmd_solink	native-module/build/Makefile	/^quiet_cmd_solink = SOLINK($(TOOLSET)) $@$/;"	m
+quiet_cmd_solink_module	native-module/build/Makefile	/^quiet_cmd_solink_module = SOLINK_MODULE($(TOOLSET)) $@$/;"	m
+quiet_cmd_touch	native-module/build/Makefile	/^quiet_cmd_touch = TOUCH $@$/;"	m
+r	src/text-mate-theme.coffee	/^      r = @parseHexColor(textmateColor[1..2])$/;"	v
+r-exec	deprecated-packages.json	/^  "r-exec": {$/;"	f
+rails-navigation	deprecated-packages.json	/^  "rails-navigation": {$/;"	f
+rainbow	src/apm-cli.coffee	/^        rainbow: 'stripColors'$/;"	f
+ran	spec/upgrade-spec.coffee	/^  ran = false$/;"	v
+re	native-module/build/gyp-mac-tool	/^import re$/;"	i
+react	deprecated-packages.json	/^  "react": {$/;"	f
+read	package.json	/^    "read": "~1.0.5",$/;"	f
+read	src/login.coffee	/^read = require 'read'$/;"	v
+read	src/upgrade.coffee	/^read = require 'read'$/;"	v
+readFileSync	src/package-converter.coffee	/^  readFileSync: (filePath) ->$/;"	m
+readTheme	src/theme-converter.coffee	/^  readTheme: (callback) ->$/;"	m
+readme	spec/fixtures/wrap-guide.json	/^  "readme": "# Wrap guide package\\n\\nDon't cross the line.\\n",$/;"	f
+realpath	src/links.coffee	/^        realpath = '???'.red$/;"	v
+rebuild	src/rebuild-module-cache.coffee	/^  rebuild: (packageDirectory, callback) ->$/;"	m
+rebuildArgs	src/rebuild.coffee	/^    rebuildArgs = [$/;"	v
+recent-projects	deprecated-packages.json	/^  "recent-projects": {$/;"	f
+recursive_delete	spec/fixtures/r.tmbundle/Support/tmR.rb	/^def recursive_delete(path)$/;"	f
+red	src/apm-cli.coffee	/^        red: 'stripColors'$/;"	f
+regex-railroad-diagram	deprecated-packages.json	/^  "regex-railroad-diagram": {$/;"	f
+registerPackage	src/publish.coffee	/^  registerPackage: (pack, callback) ->$/;"	m
+registerUninstall	src/uninstall.coffee	/^  registerUninstall: ({packageName, packageVersion}, callback) ->$/;"	m
+related-files	deprecated-packages.json	/^  "related-files": {$/;"	f
+relativePath	src/init.coffee	/^      relativePath = @replacePackageNamePlaceholders(relativePath, packageName)$/;"	v
+relativePath	src/init.coffee	/^      relativePath = templateChildPath.replace(templatePath, "")$/;"	v
+releases	spec/fixtures/atom-2048.json	/^  "releases": {$/;"	f
+releases	spec/fixtures/available.json	/^    "releases": {$/;"	f
+releases	spec/fixtures/install-multi-version.json	/^  "releases": {$/;"	f
+releases	spec/fixtures/install-test-module-with-bin.json	/^    "releases": {$/;"	f
+releases	spec/fixtures/install-test-module-with-symlink.json	/^    "releases": {$/;"	f
+releases	spec/fixtures/install-test-module.json	/^    "releases": {$/;"	f
+releases	spec/fixtures/install-test-module2.json	/^    "releases": {$/;"	f
+releases	spec/fixtures/packages.json	/^    "releases": {$/;"	f
+releases	spec/fixtures/search.json	/^    "releases": {$/;"	f
+releases	spec/fixtures/stars.json	/^    "releases": {$/;"	f
+releases	spec/fixtures/themes.json	/^    "releases": {$/;"	f
+releases	spec/fixtures/wrap-guide.json	/^  "releases": {$/;"	f
+remote-atom	deprecated-packages.json	/^  "remote-atom": {$/;"	f
+remote-edit	deprecated-packages.json	/^  "remote-edit": {$/;"	f
+remote-sync	deprecated-packages.json	/^  "remote-sync": {$/;"	f
+removeListener	spec/test-spec.coffee	/^        removeListener: -> # no op$/;"	m
+removeModule	src/clean.coffee	/^  removeModule: (module, callback) ->$/;"	m
+renamePackage	src/publish.coffee	/^  renamePackage: (pack, name, callback) ->$/;"	m
+replacePackageAuthorPlaceholders	src/init.coffee	/^  replacePackageAuthorPlaceholders: (string, packageAuthor) ->$/;"	m
+replacePackageNamePlaceholders	src/init.coffee	/^  replacePackageNamePlaceholders: (string, packageName) ->$/;"	m
+replacePassword	src/auth.coffee	/^      replacePassword: ->$/;"	m
+replace_spaces	native-module/build/Makefile	/^replace_spaces = $(subst $(space),?,$1)$/;"	m
+repo	src/list.coffee	/^          repo = getRepository(pack)$/;"	v
+repository	package.json	/^  "repository": {$/;"	f
+repository	spec/fixtures/upgrade-different-repo.json	/^  "repository": {$/;"	f
+repository	spec/fixtures/upgrade-multi-version.json	/^  "repository": {$/;"	f
+repository	spec/fixtures/upgrade-test-module.json	/^  "repository": {$/;"	f
+repository	spec/fixtures/wrap-guide.json	/^      "repository": "https:\/\/github.com\/atom2\/wrap-guide",$/;"	f
+repository	spec/fixtures/wrap-guide.json	/^      "repository": "https:\/\/github.com\/atom\/wrap-guide",$/;"	f
+repository	spec/fixtures/wrap-guide.json	/^    "repository": "https:\/\/github.com\/atom\/wrap-guide",$/;"	f
+repository	spec/fixtures/wrap-guide.json	/^  "repository": {$/;"	f
+repository	src/publish.coffee	/^            repository: repository$/;"	f
+repository	templates/bundle/package.json	/^  "repository": "https:\/\/github.com\/__package-author__\/__package-name__",$/;"	f
+repository	templates/language/package.json	/^  "repository": "https:\/\/github.com\/__package-author__\/language-__package-name__",$/;"	f
+repository	templates/package-coffeescript/package.json	/^  "repository": "https:\/\/github.com\/__package-author__\/__package-name__",$/;"	f
+repository	templates/package-javascript/package.json	/^  "repository": "https:\/\/github.com\/__package-author__\/__package-name__",$/;"	f
+repository	templates/theme/package.json	/^  "repository": "https:\/\/github.com\/__package-author__\/__package-name__",$/;"	f
+request	src/develop.coffee	/^request = require '.\/request'$/;"	v
+request	src/featured.coffee	/^request = require '.\/request'$/;"	v
+request	src/install.coffee	/^request = require '.\/request'$/;"	v
+request	src/package-converter.coffee	/^request = require '.\/request'$/;"	v
+request	src/publish.coffee	/^request = require '.\/request'$/;"	v
+request	src/search.coffee	/^request = require '.\/request'$/;"	v
+request	src/star.coffee	/^request = require '.\/request'$/;"	v
+request	src/stars.coffee	/^request = require '.\/request'$/;"	v
+request	src/theme-converter.coffee	/^request = require '.\/request'$/;"	v
+request	src/uninstall.coffee	/^request = require '.\/request'$/;"	v
+request	src/unpublish.coffee	/^request = require '.\/request'$/;"	v
+request	src/unstar.coffee	/^request = require '.\/request'$/;"	v
+request	src/upgrade.coffee	/^request = require '.\/request'$/;"	v
+request	src/view.coffee	/^request = require '.\/request'$/;"	v
+request.debug	src/request.coffee	/^    request.debug = debug$/;"	v
+requestOptions	src/theme-converter.coffee	/^      requestOptions = url: @sourcePath$/;"	v
+requestOptions	src/uninstall.coffee	/^      requestOptions =$/;"	v
+requestPackage	src/install.coffee	/^  requestPackage: (packageName, callback) ->$/;"	m
+requestSettings	src/develop.coffee	/^    requestSettings =$/;"	v
+requestSettings	src/featured.coffee	/^    requestSettings =$/;"	v
+requestSettings	src/install.coffee	/^    requestSettings = url: packageUrl$/;"	v
+requestSettings	src/install.coffee	/^    requestSettings =$/;"	v
+requestSettings	src/publish.coffee	/^        requestSettings =$/;"	v
+requestSettings	src/publish.coffee	/^      requestSettings =$/;"	v
+requestSettings	src/publish.coffee	/^    requestSettings =$/;"	v
+requestSettings	src/search.coffee	/^    requestSettings =$/;"	v
+requestSettings	src/star.coffee	/^    requestSettings =$/;"	v
+requestSettings	src/unstar.coffee	/^    requestSettings =$/;"	v
+requestSettings	src/upgrade.coffee	/^    requestSettings =$/;"	v
+requestSettings	src/view.coffee	/^    requestSettings =$/;"	v
+requestStarredPackages	src/stars.coffee	/^  requestStarredPackages: (requestSettings, callback) ->$/;"	m
+requestTags	src/publish.coffee	/^    requestTags = ->$/;"	f
+requestsMade	src/request.coffee	/^      requestsMade = 0$/;"	v
+resize-panes	deprecated-packages.json	/^  "resize-panes": {$/;"	f
+rest-client	deprecated-packages.json	/^  "rest-client": {$/;"	f
+retries	src/install.coffee	/^      retries: 4$/;"	f
+retryCount	src/publish.coffee	/^    retryCount = 5$/;"	v
+returnWithCode	spec/test-spec.coffee	/^    returnWithCode = (type, code) ->$/;"	f
+revert-buffer	deprecated-packages.json	/^  "revert-buffer": {$/;"	f
+right	coffeelint.json	/^      "right": 1$/;"	f
+rsense	deprecated-packages.json	/^  "rsense": {$/;"	f
+rspec	deprecated-packages.json	/^  "rspec": {$/;"	f
+rst-preview-pandoc	deprecated-packages.json	/^  "rst-preview-pandoc": {$/;"	f
+ruby-define-method	deprecated-packages.json	/^  "ruby-define-method": {$/;"	f
+ruby-hash-rocket	deprecated-packages.json	/^  "ruby-hash-rocket": {$/;"	f
+ruby-strftime-reference	deprecated-packages.json	/^  "ruby-strftime-reference": {$/;"	f
+ruby-test	deprecated-packages.json	/^  "ruby-test": {$/;"	f
+ruler	deprecated-packages.json	/^  "ruler": {$/;"	f
+rulesets	src/text-mate-theme.coffee	/^    @rulesets = []$/;"	f
+run	src/apm-cli.coffee	/^  run: (args, callback) ->$/;"	m
+run	src/clean.coffee	/^  run: (options) ->$/;"	m
+run	src/config.coffee	/^  run: (options) ->$/;"	m
+run	src/dedupe.coffee	/^  run: (options) ->$/;"	m
+run	src/develop.coffee	/^  run: (options) ->$/;"	m
+run	src/disable.coffee	/^  run: (options) ->$/;"	m
+run	src/docs.coffee	/^  run: (options) ->$/;"	m
+run	src/enable.coffee	/^  run: (options) ->$/;"	m
+run	src/featured.coffee	/^  run: (options) ->$/;"	m
+run	src/init.coffee	/^  run: (options) ->$/;"	m
+run	src/install.coffee	/^  run: (options) ->$/;"	m
+run	src/link.coffee	/^  run: (options) ->$/;"	m
+run	src/links.coffee	/^  run: (options) ->$/;"	m
+run	src/list.coffee	/^  run: (options) ->$/;"	m
+run	src/login.coffee	/^  run: (options) ->$/;"	m
+run	src/publish.coffee	/^  run: (options) ->$/;"	m
+run	src/rebuild-module-cache.coffee	/^  run: (options) ->$/;"	m
+run	src/rebuild.coffee	/^  run: (options) ->$/;"	m
+run	src/search.coffee	/^  run: (options) ->$/;"	m
+run	src/star.coffee	/^  run: (options) ->$/;"	m
+run	src/stars.coffee	/^  run: (options) ->$/;"	m
+run	src/test.coffee	/^  run: (options) ->$/;"	m
+run	src/uninstall.coffee	/^  run: (options) ->$/;"	m
+run	src/unlink.coffee	/^  run: (options) ->$/;"	m
+run	src/unpublish.coffee	/^  run: (options) ->$/;"	m
+run	src/unstar.coffee	/^  run: (options) ->$/;"	m
+run	src/upgrade.coffee	/^  run: (options) ->$/;"	m
+run	src/view.coffee	/^  run: (options) ->$/;"	m
+run-command	deprecated-packages.json	/^  "run-command": {$/;"	f
+run-file	deprecated-packages.json	/^  "run-file": {$/;"	f
+run-in-browser	deprecated-packages.json	/^  "run-in-browser": {$/;"	f
+runcoderun	deprecated-packages.json	/^  "runcoderun": {$/;"	f
+sanitizePackageNames	src/command.coffee	/^  sanitizePackageNames: (packageNames=[]) ->$/;"	m
+sass-autocompile	deprecated-packages.json	/^  "sass-autocompile": {$/;"	f
+sassbeautify	deprecated-packages.json	/^  "sassbeautify": {$/;"	f
+save-commands	deprecated-packages.json	/^  "save-commands": {$/;"	f
+save-session	deprecated-packages.json	/^  "save-session": {$/;"	f
+saveMetadata	src/publish.coffee	/^  saveMetadata: (pack, callback) ->$/;"	m
+saveToken	src/auth.coffee	/^  saveToken: (token) ->$/;"	m
+saveToken	src/login.coffee	/^  saveToken: ({token}) =>$/;"	m
+scope-inspector	deprecated-packages.json	/^  "scope-inspector": {$/;"	f
+scopeName	templates/language/grammars/__package-name__.cson	/^'scopeName': 'source.__package-name__'$/;"	f
+script	deprecated-packages.json	/^  "script": {$/;"	f
+script-runner	deprecated-packages.json	/^  "script-runner": {$/;"	f
+scripts	package.json	/^  "scripts": {$/;"	f
+searchOptions	src/search.coffee	/^    searchOptions =$/;"	v
+searchPackages	src/search.coffee	/^  searchPackages: (query, opts, callback) ->$/;"	m
+season	package.json	/^    "season": ">=5.0.5 <6.0",$/;"	f
+select-scope	deprecated-packages.json	/^  "select-scope": {$/;"	f
+selection-count	deprecated-packages.json	/^  "selection-count": {$/;"	f
+server	spec/clean-spec.coffee	/^    server =  http.createServer(app)$/;"	v
+server	spec/docs-spec.coffee	/^    server =  http.createServer(app)$/;"	v
+server	spec/featured-spec.coffee	/^    server =  http.createServer(app)$/;"	v
+server	spec/install-spec.coffee	/^      server =  http.createServer(app)$/;"	v
+server	spec/publish-spec.coffee	/^    server =  http.createServer(app)$/;"	v
+server	spec/rebuild-spec.coffee	/^    server =  http.createServer(app)$/;"	v
+server	spec/search-spec.coffee	/^    server =  http.createServer(app)$/;"	v
+server	spec/stars-spec.coffee	/^    server =  http.createServer(app)$/;"	v
+server	spec/unpublish-spec.coffee	/^    server =  http.createServer(app)$/;"	v
+server	spec/upgrade-spec.coffee	/^    server =  http.createServer(app)$/;"	v
+server	spec/view-spec.coffee	/^    server =  http.createServer(app)$/;"	v
+setPackageName	src/publish.coffee	/^  setPackageName: (pack, name, callback) ->$/;"	m
+settings.shellVariables	src/package-converter.coffee	/^      settings.shellVariables = shellVariables$/;"	v
+setup	spec/fixtures/r.tmbundle/Support/tests/testHistoryList.rb	/^  def setup$/;"	f	class:TestHistoryList
+setupApmRcFile	src/apm.coffee	/^  setupApmRcFile: ->$/;"	m
+setupTempDirectory	lib/apm-cli.js	/^  git = require('.\/git');$/;"	f
+setupTempDirectory	src/apm-cli.coffee	/^setupTempDirectory = ->$/;"	f
+sha	spec/install-spec.coffee	/^          sha: sha$/;"	f
+sha	spec/install-spec.coffee	/^        sha = '8ae432341ac6708aff9bb619eb015da14e9d0c0f'$/;"	v
+sha	spec/list-spec.coffee	/^        sha: "abcdef1234567890"$/;"	f
+sha	spec/list-spec.coffee	/^        sha: 'abcdef1234567890'$/;"	f
+sha	src/install.coffee	/^        sha: data.sha$/;"	f
+shell	Gruntfile.coffee	/^    shell:$/;"	f
+shellVariables	src/package-converter.coffee	/^      shellVariables = {}$/;"	v
+showHelp	lib/apm-cli.js	/^  };$/;"	f
+showHelp	src/apm-cli.coffee	/^showHelp = (options) ->$/;"	f
+shutil	native-module/build/gyp-mac-tool	/^import shutil$/;"	i
+slash-closer	deprecated-packages.json	/^  "slash-closer": {$/;"	f
+sloc	deprecated-packages.json	/^  "sloc": {$/;"	f
+smarter-delete-line	deprecated-packages.json	/^  "smarter-delete-line": {$/;"	f
+snippet	spec/fixtures/r.tmbundle/Support/lib/parsing.rb	/^  def self.snippet(str)$/;"	F	class:CommandParser
+snippetsBySelector	src/package-converter.coffee	/^    snippetsBySelector = {}$/;"	v
+source	spec/list-spec.coffee	/^        source: "git+ssh:\/\/git@github.com:user\/repo.git"$/;"	f
+source	spec/list-spec.coffee	/^        source: 'git+ssh:\/\/git@github.com:user\/repo.git'$/;"	f
+source	src/install.coffee	/^        source: packageUrl$/;"	f
+sourcePath	src/package-converter.coffee	/^    sourcePath = path.resolve(sourcePath)$/;"	v
+sourcePath	src/package-converter.coffee	/^  constructor: (@sourcePath, destinationPath) ->$/;"	f
+sourcePath	src/theme-converter.coffee	/^      sourcePath = path.resolve(@sourcePath)$/;"	v
+sourcePath	src/theme-converter.coffee	/^  constructor: (@sourcePath, destinationPath) ->$/;"	f
+sources	native-module/binding.gyp	/^      'sources': [$/;"	f
+space	native-module/build/Makefile	/^space := $(empty) $(empty)$/;"	m
+space-block-jumper	deprecated-packages.json	/^  "space-block-jumper": {$/;"	f
+space-tab	deprecated-packages.json	/^  "space-tab": {$/;"	f
+spaces	coffeelint.json	/^    "spaces": 0,$/;"	f
+spacing	coffeelint.json	/^    "spacing": {$/;"	f
+spacing_after_comma	coffeelint.json	/^  "spacing_after_comma": {$/;"	f
+spark-dfu-util	deprecated-packages.json	/^  "spark-dfu-util": {$/;"	f
+spawn	src/command.coffee	/^  spawn: (command, args, remaining...) ->$/;"	m
+src	Gruntfile.coffee	/^        src: ['**\/*.coffee']$/;"	f
+src	Gruntfile.coffee	/^      src: ['src\/**\/*.coffee']$/;"	f
+srcdir	native-module/build/Makefile	/^srcdir := ..$/;"	m
+starOptions	src/star.coffee	/^      starOptions =$/;"	v
+starPackage	src/star.coffee	/^  starPackage: (packageName, {ignoreUnpublishedPackages, token}={}, callback) ->$/;"	m
+starPackage	src/unstar.coffee	/^  starPackage: (packageName, token, callback) ->$/;"	m
+status-tab-spacing	deprecated-packages.json	/^  "status-tab-spacing": {$/;"	f
+stderr	Gruntfile.coffee	/^          stderr: true$/;"	f
+stderr	spec/test-spec.coffee	/^        stderr:$/;"	f
+stderr	spec/test-spec.coffee	/^      stderr:$/;"	f
+stdout	Gruntfile.coffee	/^          stdout: true$/;"	f
+stdout	spec/test-spec.coffee	/^        stdout:$/;"	f
+stdout	spec/test-spec.coffee	/^      stdout:$/;"	f
+string	native-module/build/gyp-mac-tool	/^import string$/;"	i
+string	src/init.coffee	/^    string = string.replace placeholderRegex, (match, dash, camel, underscore) =>$/;"	f
+sublime-tabs	deprecated-packages.json	/^  "sublime-tabs": {$/;"	f
+subprocess	native-module/build/gyp-mac-tool	/^import subprocess$/;"	i
+suffix	src/package-converter.coffee	/^      suffix = 1$/;"	v
+supercollider	deprecated-packages.json	/^  "supercollider": {$/;"	f
+supercopair	deprecated-packages.json	/^  "supercopair": {$/;"	f
+support-gbk	deprecated-packages.json	/^  "support-gbk": {$/;"	f
+supportedSyntaxes	src/init.coffee	/^  supportedSyntaxes: ['coffeescript', 'javascript']$/;"	f
+swift-playground	deprecated-packages.json	/^  "swift-playground": {$/;"	f
+symbol-gen	deprecated-packages.json	/^  "symbol-gen": {$/;"	f
+symlinks	src/links.coffee	/^    symlinks = []$/;"	v
+synced-sidebar	deprecated-packages.json	/^  "synced-sidebar": {$/;"	f
+sys	native-module/build/gyp-mac-tool	/^import sys$/;"	i
+tab-history	deprecated-packages.json	/^  "tab-history": {$/;"	f
+tab-switcher	deprecated-packages.json	/^  "tab-switcher": {$/;"	f
+tabs-to-spaces	deprecated-packages.json	/^  "tabs-to-spaces": {$/;"	f
+tag	deprecated-packages.json	/^  "tag": {$/;"	f
+tag	src/publish.coffee	/^          tag: tag$/;"	f
+tarball	spec/fixtures/atom-2048.json	/^        "tarball": "http:\/\/localhost:3000\/tarball\/test-module-1.0.0.tgz"$/;"	f
+tarball	spec/fixtures/install-multi-version.json	/^        "tarball": "http:\/\/localhost:3000\/tarball\/test-module-1.0.0.tgz"$/;"	f
+tarball	spec/fixtures/install-test-module-with-bin.json	/^                "tarball": "http:\/\/localhost:3000\/tarball\/test-module-with-bin-2.0.0.tgz"$/;"	f
+tarball	spec/fixtures/install-test-module-with-symlink.json	/^                "tarball": "http:\/\/localhost:3000\/tarball\/test-module-with-symlink-5.0.0.tgz"$/;"	f
+tarball	spec/fixtures/install-test-module.json	/^                "tarball": "http:\/\/localhost:3000\/tarball\/test-module-1.0.0.tgz"$/;"	f
+tarball	spec/fixtures/install-test-module2.json	/^                "tarball": "http:\/\/localhost:3000\/tarball\/test-module2-2.0.0.tgz"$/;"	f
+targetPath	src/unlink.coffee	/^        targetPath = @getDevPackagePath(packageName)$/;"	v
+targetPath	src/unlink.coffee	/^        targetPath = @getPackagePath(packageName)$/;"	v
+target_name	native-module/binding.gyp	/^      'target_name': 'native',$/;"	f
+targets	native-module/binding.gyp	/^  'targets': [$/;"	f
+tasks	deprecated-packages.json	/^  "tasks": {$/;"	f
+tasks	src/develop.coffee	/^          tasks = []$/;"	v
+tasks	src/install.coffee	/^    tasks = []$/;"	v
+temp	package.json	/^    "temp": "~0.7.0",$/;"	f
+temp	spec/clean-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	spec/config-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	spec/develop-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	spec/disable-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	spec/enable-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	spec/init-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	spec/install-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	spec/link-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	spec/list-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	spec/publish-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	spec/rebuild-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	spec/stars-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	spec/test-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	spec/uninstall-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	spec/unpublish-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	spec/upgrade-spec.coffee	/^temp = require 'temp'$/;"	v
+temp	src/apm-cli.coffee	/^  temp = require 'temp'$/;"	v
+temp	src/install.coffee	/^temp = require 'temp'$/;"	v
+temp	src/package-converter.coffee	/^temp = require 'temp'$/;"	v
+temp	src/test.coffee	/^temp = require 'temp'$/;"	v
+temp.dir	src/apm-cli.coffee	/^  temp.dir = tempDirectory$/;"	v
+tempDirectory	src/apm-cli.coffee	/^  tempDirectory = path.resolve(fs.absolute(tempDirectory))$/;"	v
+tempDirectory	src/apm-cli.coffee	/^  tempDirectory = require('os').tmpdir()$/;"	v
+tempfile	native-module/build/gyp-mac-tool	/^import tempfile$/;"	i
+templateChildPath	src/init.coffee	/^      templateChildPath = path.resolve(templatePath, childPath)$/;"	v
+term	deprecated-packages.json	/^  "term": {$/;"	f
+terminal-panel	deprecated-packages.json	/^  "terminal-panel": {$/;"	f
+terminal-status	deprecated-packages.json	/^  "terminal-status": {$/;"	f
+test	Gruntfile.coffee	/^      test: ['spec\/*.coffee']$/;"	f
+test	Gruntfile.coffee	/^      test:$/;"	f
+test	package.json	/^    "test": "grunt test"$/;"	f
+test-module	spec/fixtures/test-module-with-dependencies/package.json	/^    "test-module": "http:\/\/localhost:3000\/tarball\/test-module-1.0.0.tgz"$/;"	f
+test-status	deprecated-packages.json	/^  "test-status": {$/;"	f
+test_add_line	spec/fixtures/r.tmbundle/Support/tests/testHistoryList.rb	/^  def test_add_line$/;"	f	class:TestHistoryList
+test_init	spec/fixtures/r.tmbundle/Support/tests/testHistoryList.rb	/^  def test_init$/;"	f	class:TestHistoryList
+test_last_line	spec/fixtures/r.tmbundle/Support/tests/testHistoryList.rb	/^  def test_last_line$/;"	f	class:TestHistoryList
+test_move_commands	spec/fixtures/r.tmbundle/Support/tests/testHistoryList.rb	/^  def test_move_commands$/;"	f	class:TestHistoryList
+test_next_item	spec/fixtures/r.tmbundle/Support/tests/testHistoryList.rb	/^  def test_next_item$/;"	f	class:TestHistoryList
+test_previous_item	spec/fixtures/r.tmbundle/Support/tests/testHistoryList.rb	/^  def test_previous_item$/;"	f	class:TestHistoryList
+test_uniqueness	spec/fixtures/r.tmbundle/Support/tests/testHistoryList.rb	/^  def test_uniqueness$/;"	f	class:TestHistoryList
+text	spec/fixtures/r.tmbundle/Support/lib/historyList.rb	/^  def text$/;"	f	class:HistoryList
+text	spec/upgrade-spec.coffee	/^        text = console.log.argsForCall.map((arr) -> arr.join(' ')).join("\\n")$/;"	f
+textmateColor	src/text-mate-theme.coffee	/^    textmateColor = "##{textmateColor.replace(\/^#+\/, '')}"$/;"	v
+the-closer	deprecated-packages.json	/^  "the-closer": {$/;"	f
+theme	spec/fixtures/available.json	/^      "theme": true,$/;"	f
+theme	spec/fixtures/search.json	/^      "theme": true,$/;"	f
+theme	spec/fixtures/themes.json	/^      "theme": true,$/;"	f
+theme	src/disable.coffee	/^        theme: false$/;"	f
+theme	templates/theme/package.json	/^  "theme": "syntax",$/;"	f
+ti-alloy-related	deprecated-packages.json	/^  "ti-alloy-related": {$/;"	f
+tidal	deprecated-packages.json	/^  "tidal": {$/;"	f
+tidy-markdown	deprecated-packages.json	/^  "tidy-markdown": {$/;"	f
+timecop	deprecated-packages.json	/^  "timecop": {$/;"	f
+timekeeper	deprecated-packages.json	/^  "timekeeper": {$/;"	f
+toggle-tabs	deprecated-packages.json	/^  "toggle-tabs": {$/;"	f
+translateColor	src/text-mate-theme.coffee	/^  translateColor: (textmateColor) ->$/;"	m
+translateScopeSelector	src/text-mate-theme.coffee	/^  translateScopeSelector: (textmateScopeSelector) ->$/;"	m
+translateScopeSelectorSettings	src/text-mate-theme.coffee	/^  translateScopeSelectorSettings: ({foreground, background, fontStyle}) ->$/;"	m
+travis-ci-status	deprecated-packages.json	/^  "travis-ci-status": {$/;"	f
+tree	src/featured.coffee	/^tree = require '.\/tree'$/;"	v
+tree	src/links.coffee	/^tree = require '.\/tree'$/;"	v
+tree	src/list.coffee	/^tree = require '.\/tree'$/;"	v
+tree	src/search.coffee	/^tree = require '.\/tree'$/;"	v
+tree	src/stars.coffee	/^tree = require '.\/tree'$/;"	v
+tree	src/upgrade.coffee	/^tree = require '.\/tree'$/;"	v
+tree	src/view.coffee	/^tree = require '.\/tree'$/;"	v
+true-color	deprecated-packages.json	/^  "true-color": {$/;"	f
+tryRequest	src/request.coffee	/^      tryRequest = ->$/;"	f
+turbo-javascript	deprecated-packages.json	/^  "turbo-javascript": {$/;"	f
+turnip-step	deprecated-packages.json	/^  "turnip-step": {$/;"	f
+type	package.json	/^    "type": "git",$/;"	f
+type	spec/fixtures/wrap-guide.json	/^    "type": "git",$/;"	f
+type	spec/install-spec.coffee	/^          type: 'git'$/;"	f
+type	spec/list-spec.coffee	/^        type: "git"$/;"	f
+type	spec/list-spec.coffee	/^        type: 'git'$/;"	f
+type	src/install.coffee	/^        type: "git"$/;"	f
+underscore	src/init.coffee	/^  underscore: (string) ->$/;"	m
+underscore-plus	package.json	/^    "underscore-plus": "1.x",$/;"	f
+uninstallCommands	src/clean.coffee	/^    uninstallCommands = []$/;"	v
+uninstallsToRegister	src/uninstall.coffee	/^    uninstallsToRegister = []$/;"	v
+unity-ui	deprecated-packages.json	/^  "unity-ui": {$/;"	f
+unlinkAll	src/unlink.coffee	/^  unlinkAll: (options, callback) ->$/;"	m
+unlinkPackage	src/unlink.coffee	/^  unlinkPackage: (options, callback) ->$/;"	m
+unlinkPath	src/unlink.coffee	/^  unlinkPath: (pathToUnlink) ->$/;"	m
+unpublishPackage	src/unpublish.coffee	/^  unpublishPackage: (packageName, packageVersion, callback) ->$/;"	m
+unreplace_spaces	native-module/build/Makefile	/^unreplace_spaces = $(subst ?,$(space),$1)$/;"	m
+update-package-dependencies	deprecated-packages.json	/^  "update-package-dependencies": {$/;"	f
+update-packages	deprecated-packages.json	/^  "update-packages": {$/;"	f
+updateWindowsEnv	src/command.coffee	/^  updateWindowsEnv: (env) ->$/;"	m
+updates	src/upgrade.coffee	/^      updates = _.filter updates, (update) -> update.latestVersion? or update.sha?$/;"	f
+upgradePackages	src/upgrade.coffee	/^  upgradePackages: (options, callback) ->$/;"	m
+url	package.json	/^    "url": "https:\/\/github.com\/atom\/apm.git"$/;"	f
+url	package.json	/^    "url": "https:\/\/github.com\/atom\/apm\/issues"$/;"	f
+url	spec/fixtures/upgrade-different-repo.json	/^    "url": "https:\/\/github.com\/hello\/world"$/;"	f
+url	spec/fixtures/upgrade-multi-version.json	/^    "url": "https:\/\/github.com\/a\/b"$/;"	f
+url	spec/fixtures/upgrade-test-module.json	/^    "url": "https:\/\/github.com\/a\/b"$/;"	f
+url	spec/fixtures/wrap-guide.json	/^    "url": "https:\/\/github.com\/atom\/wrap-guide"$/;"	f
+url	spec/install-spec.coffee	/^        url = "file:\/\/\/path\/to\/folder"$/;"	v
+url	spec/install-spec.coffee	/^        url = "git@github.com:user\/repo.git"$/;"	v
+url	spec/install-spec.coffee	/^        url = "https:\/\/github.com\/user\/repo.git"$/;"	v
+url	spec/install-spec.coffee	/^        url = "user\/repo"$/;"	v
+url	src/package-converter.coffee	/^url = require 'url'$/;"	v
+url	src/packages.coffee	/^url = require 'url'$/;"	v
+url	src/publish.coffee	/^      url: "https:\/\/api.github.com\/repos\/#{Packages.getRepository(pack)}\/tags"$/;"	f
+url	src/publish.coffee	/^url = require 'url'$/;"	v
+url	src/theme-converter.coffee	/^url = require 'url'$/;"	v
+urls	spec/install-spec.coffee	/^        urls = ["url1", "url2", "url3", "url4"]$/;"	v
+urls	src/install.coffee	/^      urls = @getNormalizedGitUrls(packageUrl)$/;"	v
+user	src/list.coffee	/^      user: []$/;"	f
+userLabel	src/stars.coffee	/^    userLabel = user ? 'you'$/;"	v
+validateSemverRanges	src/publish.coffee	/^  validateSemverRanges: (pack) ->$/;"	m
+verbose	src/upgrade.coffee	/^    verbose = @verbose$/;"	v
+version	deprecated-packages.json	/^    "version": "<=0.0.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.0.10",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.0.13",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.0.2",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.0.20",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.0.29",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.0.3",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.0.5",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.0.6",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.0.7",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.0.9",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.1.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.1.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.1.13",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.1.17",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.1.2",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.1.3",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.1.4",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.1.5",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.1.6",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.1.7",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.1.8",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.11.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.11.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.13.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.14.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.15.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.16.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.2.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.2.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.2.2",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.2.3",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.2.5",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.2.6",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.2.7",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.20.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.20.5",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.23.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.24.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.27.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.27.6",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.3.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.3.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.3.13",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.3.2",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.3.3",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.3.8",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.4.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.4.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.4.2",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.4.3",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.4.7",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.4.9",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.43.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.46.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.5.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.5.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.5.3",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.5.4",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.6.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.6.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.6.10",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.6.13",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.6.2",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.6.3",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.6.5",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.6.6",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.60.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.7.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.7.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.7.3",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.8.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.8.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.8.2",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.8.3",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.9.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.9.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.9.2",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.9.3",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.9.34",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=0.9.5",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.0.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.0.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.0.2",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.0.3",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.0.4",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.0.5",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.0.9",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.1.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.1.2",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.1.4",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.1.42",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.1.5",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.11.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.11.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.16.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.2.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.2.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.2.3",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.3.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.3.2",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.3.6",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.4.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.5.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.5.3",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.5.4",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.6.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.6.4",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.7.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=1.8.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=2.0.8",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=2.1.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=2.2.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=2.20.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=2.3.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=2.3.7",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=2.4.7",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=2.5.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=3.0.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=3.0.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=3.0.4",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=3.1.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=3.1.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=3.2.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=3.5.6",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=4.1.0",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=4.1.3",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=4.3.1",$/;"	f
+version	deprecated-packages.json	/^    "version": "<=4.5.0",$/;"	f
+version	package.json	/^  "version": "1.9.2",$/;"	f
+version	spec/fixtures/available.json	/^      "version": "19.92",$/;"	f
+version	spec/fixtures/available.json	/^      "version": "2.0.0"$/;"	f
+version	spec/fixtures/available.json	/^      "version": "9.0.2.1.0",$/;"	f
+version	spec/fixtures/package-with-native-deps/package.json	/^  "version": "1.0.0",$/;"	f
+version	spec/fixtures/packages.json	/^      "version": "2.0.0"$/;"	f
+version	spec/fixtures/packages.json	/^      "version": "9.0.2.1.0",$/;"	f
+version	spec/fixtures/search.json	/^      "version": "1.0",$/;"	f
+version	spec/fixtures/search.json	/^      "version": "1.2.3",$/;"	f
+version	spec/fixtures/search.json	/^      "version": "19.92",$/;"	f
+version	spec/fixtures/search.json	/^      "version": "2.0",$/;"	f
+version	spec/fixtures/stars.json	/^      "version": "0.4.0"$/;"	f
+version	spec/fixtures/test-module-three/package.json	/^  "version": "1.0.0",$/;"	f
+version	spec/fixtures/test-module-two/package.json	/^  "version": "1.0.0",$/;"	f
+version	spec/fixtures/test-module-with-dependencies/package.json	/^  "version": "1.0.0",$/;"	f
+version	spec/fixtures/test-module/package.json	/^  "version": "1.0.0",$/;"	f
+version	spec/fixtures/themes.json	/^      "version": "19.92",$/;"	f
+version	spec/fixtures/wrap-guide.json	/^      "version": "0.14.0",$/;"	f
+version	spec/fixtures/wrap-guide.json	/^      "version": "0.3.0",$/;"	f
+version	spec/fixtures/wrap-guide.json	/^    "version": "0.14.0",$/;"	f
+version	spec/list-spec.coffee	/^          version: '1.0.0'$/;"	f
+version	spec/list-spec.coffee	/^      version: "1.0.0"$/;"	f
+version	spec/publish-spec.coffee	/^      version: '1.0.0'$/;"	f
+version	templates/bundle/package.json	/^  "version": "0.0.0",$/;"	f
+version	templates/language/package.json	/^  "version": "0.0.0",$/;"	f
+version	templates/package-coffeescript/package.json	/^  "version": "0.0.0",$/;"	f
+version	templates/package-javascript/package.json	/^  "version": "0.0.0",$/;"	f
+version	templates/theme/package.json	/^  "version": "0.0.0",$/;"	f
+versionPackage	src/publish.coffee	/^  versionPackage: (version, callback) ->$/;"	m
+versions	spec/fixtures/atom-2048.json	/^  "versions": {$/;"	f
+versions	spec/fixtures/install-multi-version.json	/^  "versions": {$/;"	f
+versions	spec/fixtures/install-test-module-with-bin.json	/^    "versions": {$/;"	f
+versions	spec/fixtures/install-test-module-with-symlink.json	/^    "versions": {$/;"	f
+versions	spec/fixtures/install-test-module.json	/^    "versions": {$/;"	f
+versions	spec/fixtures/install-test-module2.json	/^    "versions": {$/;"	f
+versions	spec/fixtures/upgrade-different-repo.json	/^  "versions": {$/;"	f
+versions	spec/fixtures/upgrade-multi-version.json	/^  "versions": {$/;"	f
+versions	spec/fixtures/upgrade-test-module.json	/^  "versions": {$/;"	f
+versions	spec/fixtures/wrap-guide.json	/^  "versions": {$/;"	f
+versions	src/apm-cli.coffee	/^        versions =  """$/;"	v
+versions	src/apm-cli.coffee	/^        versions =$/;"	v
+vertical-align	deprecated-packages.json	/^  "vertical-align": {$/;"	f
+view-tail-large-files	deprecated-packages.json	/^  "view-tail-large-files": {$/;"	f
+vim-mode	deprecated-packages.json	/^  "vim-mode": {$/;"	f
+virtualenv	deprecated-packages.json	/^  "virtualenv": {$/;"	f
+visual-bell	deprecated-packages.json	/^  "visual-bell": {$/;"	f
+vnc	deprecated-packages.json	/^  "vnc": {$/;"	f
+voicecode	deprecated-packages.json	/^  "voicecode": {$/;"	f
+w3c-validation	deprecated-packages.json	/^  "w3c-validation": {$/;"	f
+waitForTagToBeAvailable	src/publish.coffee	/^  waitForTagToBeAvailable: (pack, tag, callback) ->$/;"	m
+warmCompileCache	src/install.coffee	/^  warmCompileCache: (packageName, callback) ->$/;"	m
+weather-package	deprecated-packages.json	/^  "weather-package": {$/;"	f
+web-view	deprecated-packages.json	/^  "web-view": {$/;"	f
+webbox-color	deprecated-packages.json	/^  "webbox-color": {$/;"	f
+webview-pane	deprecated-packages.json	/^  "webview-pane": {$/;"	f
+welcome	src/login.coffee	/^    welcome = """$/;"	v
+welcomeMessage	src/login.coffee	/^  welcomeMessage: (state) =>$/;"	m
+wercker-status	deprecated-packages.json	/^  "wercker-status": {$/;"	f
+white-cursor	deprecated-packages.json	/^  "white-cursor": {$/;"	f
+whitespace	deprecated-packages.json	/^  "whitespace": {$/;"	f
+word-count	deprecated-packages.json	/^  "word-count": {$/;"	f
+word-jumper	deprecated-packages.json	/^  "word-jumper": {$/;"	f
+wordcount	deprecated-packages.json	/^  "wordcount": {$/;"	f
+wordwrap	package.json	/^    "wordwrap": "0.0.2",$/;"	f
+wordwrap	src/apm-cli.coffee	/^wordwrap = require 'wordwrap'$/;"	v
+wrap-lines	deprecated-packages.json	/^  "wrap-lines": {$/;"	f
+wrench	package.json	/^    "wrench": "~1.5.1",$/;"	f
+writeFileSync	src/package-converter.coffee	/^  writeFileSync: (filePath, object={}) ->$/;"	m
+writeStream	src/install.coffee	/^          writeStream = fs.createWriteStream(filePath)$/;"	v
+x86ProgramFilesDirectory	src/apm.coffee	/^  x86ProgramFilesDirectory: ->$/;"	m
+yargs	package.json	/^    "yargs": "^3.23.0"$/;"	f
+yargs	src/apm-cli.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/clean.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/config.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/dedupe.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/develop.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/disable.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/docs.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/enable.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/featured.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/init.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/install.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/link.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/links.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/list.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/login.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/publish.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/rebuild-module-cache.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/rebuild.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/search.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/star.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/stars.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/test.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/uninstall.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/unlink.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/unpublish.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/unstar.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/upgrade.coffee	/^yargs = require 'yargs'$/;"	v
+yargs	src/view.coffee	/^yargs = require 'yargs'$/;"	v
+yellow	src/apm-cli.coffee	/^        yellow: 'stripColors'$/;"	f
+yosemite-unity-ui	deprecated-packages.json	/^  "yosemite-unity-ui": {$/;"	f
+yuno-commit	deprecated-packages.json	/^  "yuno-commit": {$/;"	f
+zentabs	deprecated-packages.json	/^  "zentabs": {$/;"	f
+zlib	src/package-converter.coffee	/^zlib = require 'zlib'$/;"	v
